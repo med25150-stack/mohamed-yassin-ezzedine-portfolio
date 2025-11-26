@@ -1,11 +1,12 @@
 import { TranslationData } from './types';
 
+
 const IMAGES = {
   store: "https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&q=80&w=800", // Women's Fashion
   glow: "https://images.unsplash.com/photo-1560066984-138dadb4c035?auto=format&fit=crop&q=80&w=800", // Beauty Salon
   vamous: "https://images.unsplash.com/photo-1554068865-24cecd4e34b8?auto=format&fit=crop&q=80&w=800", // Padel Court
   arena: "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&q=80&w=800", // Logistics/Warehouse
-  profile: "https://media.licdn.com/dms/image/v2/D4D03AQEXyRG4dCEMUw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1706954783218?e=1766016000&v=beta&t=Jr53od_Z6GKoKkV_TQgEb-NLJ2ehlZ794qwhbVVHlBQ", 
+  profile: "/images/profile.jpg", 
 };
 
 // Google Drive Direct Download Links
@@ -37,7 +38,7 @@ export const TRANSLATIONS: Record<'en' | 'fr' | 'ar', TranslationData> = {
       summary: "Marketing Director at 5e Saison Store and Digital Marketer specialized in strategy, acquisition, and branding. Combining creativity and analytics to drive growth.",
       location: "Tunisia",
       specialty: "Performance & CRM",
-      education_short: "Education Master in CRM & Digital Transformations",
+      education_short: "Master in CRM & Digital Transformations",
       contact_btn: "Contact Me",
       linkedin_btn: "View LinkedIn",
       download_cv: "Download CV",
@@ -275,7 +276,7 @@ export const TRANSLATIONS: Record<'en' | 'fr' | 'ar', TranslationData> = {
       summary: "Directeur Marketing chez 5e Saison Store et Marketeur Digital spécialisé en stratégie, acquisition et branding. Alliant créativité et analyse pour stimuler la croissance.",
       location: "Tunisie",
       specialty: "Performance & CRM",
-      education_short: "Éducation Master en CRM & Transformations Digitales",
+      education_short: "Master en CRM & Transformations Digitales",
       contact_btn: "Contactez-moi",
       linkedin_btn: "Voir LinkedIn",
       download_cv: "Télécharger CV",
@@ -513,7 +514,7 @@ export const TRANSLATIONS: Record<'en' | 'fr' | 'ar', TranslationData> = {
       summary: "مدير تسويق في 5e Saison Store ومسوق رقمي متخصص في الاستراتيجية والاستحواذ والعلامة التجارية. أجمع بين الإبداع والتحليل لدفع عجلة النمو.",
       location: "تونس",
       specialty: "الأداء و CRM",
-      education_short: "التعليم ماجستير في CRM والتحولات الرقمية",
+      education_short: "ماجستير في CRM والتحولات الرقمية",
       contact_btn: "تواصل معي",
       linkedin_btn: "زيارة LinkedIn",
       download_cv: "تحميل السيرة الذاتية",
