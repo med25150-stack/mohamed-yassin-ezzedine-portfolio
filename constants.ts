@@ -6,7 +6,7 @@ const IMAGES = {
   glow: "https://images.unsplash.com/photo-1560066984-138dadb4c035?auto=format&fit=crop&q=80&w=800", // Beauty Salon
   vamous: "https://images.unsplash.com/photo-1554068865-24cecd4e34b8?auto=format&fit=crop&q=80&w=800", // Padel Court
   arena: "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&q=80&w=800", // Logistics/Warehouse
-  profile: "/public/images/profile.jpg", 
+  profile: "/images/profile.jpg", 
 };
 
 // Google Drive Direct Download Links
