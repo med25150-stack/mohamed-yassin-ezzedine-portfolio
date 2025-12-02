@@ -5,7 +5,7 @@ const IMAGES = {
   glow: "https://images.unsplash.com/photo-1560066984-138dadb4c035?auto=format&fit=crop&q=80&w=800", // Beauty Salon
   vamous: "https://images.unsplash.com/photo-1554068865-24cecd4e34b8?auto=format&fit=crop&q=80&w=800", // Padel Court
   arena: "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&q=80&w=800", // Logistics/Warehouse
-  profile: "https://media.licdn.com/dms/image/v2/D4D03AQEXyRG4dCEMUw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1706954783218?e=1766016000&v=beta&t=Jr53od_Z6GKoKkV_TQgEb-NLJ2ehlZ794qwhbVVHlBQ", 
+  profile: "/public/images/profile.jpg",
 };
 
 // Google Drive Direct Download Links
@@ -50,7 +50,7 @@ export const TRANSLATIONS: Record<'en' | 'fr' | 'ar', TranslationData> = {
       hero_title_2: "Mohamed Yassin",
       hero_title_3: "Portfolio",
       hero_intro: "Marketing Director | Digital Marketing Executive | Marketing Manager | Sales & Marketing Executive\n\nI'm Mohamed Yassin Ezzedine. Currently Marketing Director at 5e Saison Store, I combine strategy and creativity to build impactful campaigns. Specializing in SEO, paid ads, and content creation, I leverage data to optimize online presence and drive growth. I am committed to delivering excellence through analytical rigor and innovative digital solutions.",
-      profile_image: "/public/images/profile.jpg", 
+      profile_image:  IMAGES.profile,
     },
     navigation: {
       about: "About",
