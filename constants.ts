@@ -1,12 +1,11 @@
 import { TranslationData } from './types';
 
-
 const IMAGES = {
   store: "https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&q=80&w=800", // Women's Fashion
   glow: "https://images.unsplash.com/photo-1560066984-138dadb4c035?auto=format&fit=crop&q=80&w=800", // Beauty Salon
   vamous: "https://images.unsplash.com/photo-1554068865-24cecd4e34b8?auto=format&fit=crop&q=80&w=800", // Padel Court
   arena: "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&q=80&w=800", // Logistics/Warehouse
-  profile: "/images/profile.jpg", 
+  profile: "https://media.licdn.com/dms/image/v2/D4D03AQEXyRG4dCEMUw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1706954783218?e=1766016000&v=beta&t=Jr53od_Z6GKoKkV_TQgEb-NLJ2ehlZ794qwhbVVHlBQ", 
 };
 
 // Google Drive Direct Download Links
@@ -37,6 +36,7 @@ export const TRANSLATIONS: Record<'en' | 'fr' | 'ar', TranslationData> = {
       linkedin: "https://www.linkedin.com/in/mohamed-yassin-ezzedine",
       summary: "Marketing Director at 5e Saison Store and Digital Marketer specialized in strategy, acquisition, and branding. Combining creativity and analytics to drive growth.",
       location: "Tunisia",
+      years_experience: "3 Years",
       specialty: "Performance & CRM",
       education_short: "Master in CRM & Digital Transformations",
       contact_btn: "Contact Me",
@@ -46,11 +46,11 @@ export const TRANSLATIONS: Record<'en' | 'fr' | 'ar', TranslationData> = {
       cv_fr: CVS.fr,
       cv_ar: CVS.ar,
       open_to_work: "Open for Opportunities",
-      hero_title_1: "Driving Growth through",
-      hero_title_2: "Data",
-      hero_title_3: "Creativity",
-      hero_intro: "I'm Mohamed Yassin Ezzedine. Currently Marketing Director at 5e Saison Store, I combine strategy and creativity to build impactful campaigns. Specializing in SEO, paid ads, and content creation, I leverage data to optimize online presence and drive growth. I am committed to delivering excellence through analytical rigor and innovative digital solutions.",
-      profile_image: IMAGES.profile
+      hero_title_1: "Welcome to",
+      hero_title_2: "Mohamed Yassin",
+      hero_title_3: "Portfolio",
+      hero_intro: "Marketing Director | Digital Marketing Executive | Marketing Manager | Sales & Marketing Executive\n\nI'm Mohamed Yassin Ezzedine. Currently Marketing Director at 5e Saison Store, I combine strategy and creativity to build impactful campaigns. Specializing in SEO, paid ads, and content creation, I leverage data to optimize online presence and drive growth. I am committed to delivering excellence through analytical rigor and innovative digital solutions.",
+      profile_image: "/public/images/profile.jpg", 
     },
     navigation: {
       about: "About",
@@ -204,8 +204,12 @@ export const TRANSLATIONS: Record<'en' | 'fr' | 'ar', TranslationData> = {
     ],
     education: [
       { degree: "Master in CRM & Digital Transformations", school: "FSEG Sfax", year: "2022 – 2024" },
-      { degree: "Licence in Marketing", school: "ISAA Sfax", year: "2018 – 2022" },
-      { degree: "Pedagogical Enterprise Training", school: "Arena Pro", year: "2023 – 2024" }
+      { degree: "Licence in Marketing", school: "ISAA Sfax", year: "2018 – 2022" }
+    ],
+    certifications: [
+      "Pedagogical Enterprise Training (Arena Pro)",
+      "SEO (Maha.Digital)",
+      "E2Business Training"
     ],
     projects: [
       {
@@ -275,6 +279,7 @@ export const TRANSLATIONS: Record<'en' | 'fr' | 'ar', TranslationData> = {
       linkedin: "https://www.linkedin.com/in/mohamed-yassin-ezzedine",
       summary: "Directeur Marketing chez 5e Saison Store et Marketeur Digital spécialisé en stratégie, acquisition et branding. Alliant créativité et analyse pour stimuler la croissance.",
       location: "Tunisie",
+      years_experience: "3 Ans",
       specialty: "Performance & CRM",
       education_short: "Master en CRM & Transformations Digitales",
       contact_btn: "Contactez-moi",
@@ -284,10 +289,10 @@ export const TRANSLATIONS: Record<'en' | 'fr' | 'ar', TranslationData> = {
       cv_fr: CVS.fr,
       cv_ar: CVS.ar,
       open_to_work: "À l'écoute d'opportunités",
-      hero_title_1: "Stimuler la croissance par la",
-      hero_title_2: "Data",
-      hero_title_3: "Créativité",
-      hero_intro: "Je suis Mohamed Yassin Ezzedine. Actuellement Directeur Marketing chez 5e Saison Store, je combine stratégie et créativité pour concevoir des campagnes percutantes. Spécialisé en SEO, publicités payantes et création de contenu, j'exploite les données pour optimiser la présence en ligne et générer de la croissance. Je m'engage à l'excellence par une rigueur analytique et des solutions digitales innovantes.",
+      hero_title_1: "Bienvenue sur le",
+      hero_title_2: "Portfolio de",
+      hero_title_3: "Mohamed Yassin",
+      hero_intro: "Marketing Director | Digital Marketing Executive | Marketing Manager | Sales & Marketing Executive\n\nJe suis Mohamed Yassin Ezzedine. Actuellement Directeur Marketing chez 5e Saison Store, je combine stratégie et créativité pour concevoir des campagnes percutantes. Spécialisé en SEO, publicités payantes et création de contenu, j'exploite les données pour optimiser la présence en ligne et générer de la croissance. Je m'engage à l'excellence par une rigueur analytique et des solutions digitales innovantes.",
       profile_image: IMAGES.profile
     },
     navigation: {
@@ -299,8 +304,8 @@ export const TRANSLATIONS: Record<'en' | 'fr' | 'ar', TranslationData> = {
       contact: "Contact"
     },
     sectionTitles: {
-      performance_title: "Impact Prouvé",
-      performance_subtitle: "Mes stratégies ne sont pas seulement esthétiques, elles sont performantes. Voici un aperçu de l'impact que j'ai eu dans mes rôles récents.",
+      performance_title: "Impact Mesurable",
+      performance_subtitle: "Mes stratégies ne sont pas seulement esthétiques, elles sont performantes. Voici un aperçu de l'impact généré dans mes rôles récents.",
       performance_chart_title: "Aperçu des Performances",
       performance_chart_desc: "Une croissance à deux chiffres constante sur les KPI marketing clés grâce à l'optimisation des données et au storytelling créatif.",
       experience_title: "Parcours Professionnel",
@@ -321,7 +326,7 @@ export const TRANSLATIONS: Record<'en' | 'fr' | 'ar', TranslationData> = {
     process: [
       { id: '1', title: "Découverte", description: "Analyse des lacunes du marché et du potentiel de la marque.", icon: 'search' },
       { id: '2', title: "Stratégie", description: "Création de feuilles de route axées sur les données.", icon: 'strategy' },
-      { id: '3', title: "Exécution", description: "Lancement de campagnes et de systèmes à fort impact.", icon: 'rocket' },
+      { id: '3', title: "Mise en Œuvre", description: "Lancement de campagnes et de systèmes à fort impact.", icon: 'rocket' },
       { id: '4', title: "Optimisation", description: "Mise à l'échelle des résultats par itération continue.", icon: 'chart' }
     ],
     experiences: [
@@ -442,8 +447,12 @@ export const TRANSLATIONS: Record<'en' | 'fr' | 'ar', TranslationData> = {
     ],
     education: [
       { degree: "Master en CRM & Transformations Digitales", school: "FSEG Sfax", year: "2022 – 2024" },
-      { degree: "Licence en Marketing", school: "ISAA Sfax", year: "2018 – 2022" },
-      { degree: "Formation en Entreprise Pédagogique", school: "Arena Pro", year: "2023 – 2024" }
+      { degree: "Licence en Marketing", school: "ISAA Sfax", year: "2018 – 2022" }
+    ],
+    certifications: [
+      "Formation en Entreprise Pédagogique (Arena Pro)",
+      "Référencement naturel SEO (Maha.Digital)",
+      "Référencement naturel (E2Business Training)"
     ],
     projects: [
       {
@@ -513,8 +522,9 @@ export const TRANSLATIONS: Record<'en' | 'fr' | 'ar', TranslationData> = {
       linkedin: "https://www.linkedin.com/in/mohamed-yassin-ezzedine",
       summary: "مدير تسويق في 5e Saison Store ومسوق رقمي متخصص في الاستراتيجية والاستحواذ والعلامة التجارية. أجمع بين الإبداع والتحليل لدفع عجلة النمو.",
       location: "تونس",
+      years_experience: "3 سنوات",
       specialty: "الأداء و CRM",
-      education_short: "ماجستير في CRM والتحولات الرقمية",
+      education_short: " ماجستير في CRM والتحولات الرقمية",
       contact_btn: "تواصل معي",
       linkedin_btn: "زيارة LinkedIn",
       download_cv: "تحميل السيرة الذاتية",
@@ -522,10 +532,10 @@ export const TRANSLATIONS: Record<'en' | 'fr' | 'ar', TranslationData> = {
       cv_fr: CVS.fr,
       cv_ar: CVS.ar,
       open_to_work: "متاح لفرص العمل",
-      hero_title_1: "قيادة النمو من خلال",
-      hero_title_2: "البيانات",
-      hero_title_3: "والإبداع",
-      hero_intro: "أنا محمد ياسين عز الدين. بصفتي مدير التسويق الحالي في 5e Saison Store، أجمع بين الاستراتيجية والإبداع لبناء حملات مؤثرة. متخصص في تحسين محركات البحث، والإعلانات المدفوعة، وإنشاء المحتوى، وأوظف البيانات لتعزيز التواجد الرقمي ودفع عجلة النمو. أنا ملتزم بتقديم التميز من خلال الدقة التحليلية والحلول الرقمية المبتكرة.",
+      hero_title_1: "مرحباً بكم في",
+      hero_title_2: "محفظة",
+      hero_title_3: "محمد ياسين",
+      hero_intro: "Marketing Director | Digital Marketing Executive | Marketing Manager | Sales & Marketing Executive\n\nأنا محمد ياسين عز الدين. بصفتي مدير التسويق الحالي في 5e Saison Store، أجمع بين الاستراتيجية والإبداع لبناء حملات مؤثرة. متخصص في تحسين محركات البحث، والإعلانات المدفوعة، وإنشاء المحتوى، وأوظف البيانات لتعزيز التواجد الرقمي ودفع عجلة النمو. أنا ملتزم بتقديم التميز من خلال الدقة التحليلية والحلول الرقمية المبتكرة.",
       profile_image: IMAGES.profile
     },
     navigation: {
@@ -680,8 +690,12 @@ export const TRANSLATIONS: Record<'en' | 'fr' | 'ar', TranslationData> = {
     ],
     education: [
       { degree: "ماجستير في CRM والتحولات الرقمية", school: "FSEG Sfax", year: "2022 – 2024" },
-      { degree: "إجازة في التسويق", school: "ISAA Sfax", year: "2018 – 2022" },
-      { degree: "تدريب المؤسسة البيداغوجية", school: "Arena Pro", year: "2023 – 2024" }
+      { degree: "إجازة في التسويق", school: "ISAA Sfax", year: "2018 – 2022" }
+    ],
+    certifications: [
+      "تدريب المؤسسة البيداغوجية (Arena Pro)",
+      "تحسين محركات البحث (Maha.Digital)",
+      "تدريب الأعمال (E2Business Training)"
     ],
     projects: [
       {

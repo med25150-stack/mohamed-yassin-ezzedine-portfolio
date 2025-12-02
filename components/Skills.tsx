@@ -1,4 +1,5 @@
 
+
 import React from 'react';
 import { 
   Layers, Palette, Terminal, GraduationCap, 
@@ -233,14 +234,12 @@ const Skills: React.FC = () => {
                     <h3 className="font-bold text-indigo-900 dark:text-indigo-200">{content.sectionTitles.certifications}</h3>
                 </div>
                 <ul className="space-y-3">
-                  <li className="flex items-center text-sm text-indigo-800 dark:text-indigo-300">
-                    <CheckCircle2 size={16} className="text-indigo-500 dark:text-indigo-400 me-2 shrink-0" />
-                    <span>SEO (Maha.Digital)</span>
-                  </li>
-                  <li className="flex items-center text-sm text-indigo-800 dark:text-indigo-300">
-                     <CheckCircle2 size={16} className="text-indigo-500 dark:text-indigo-400 me-2 shrink-0" />
-                    <span>E2Business Training</span>
-                  </li>
+                  {content.certifications.map((cert, idx) => (
+                    <li key={idx} className="flex items-center text-sm text-indigo-800 dark:text-indigo-300">
+                      <CheckCircle2 size={16} className="text-indigo-500 dark:text-indigo-400 me-2 shrink-0" />
+                      <span>{cert}</span>
+                    </li>
+                  ))}
                 </ul>
               </div>
             </div>

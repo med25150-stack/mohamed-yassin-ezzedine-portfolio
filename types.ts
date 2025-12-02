@@ -62,6 +62,7 @@ export interface PersonalInfo {
   linkedin: string;
   summary: string;
   location: string;
+  years_experience: string;
   specialty: string;
   education_short: string;
   contact_btn: string;
@@ -115,6 +116,7 @@ export interface TranslationData {
   skills: SkillCategory[];
   performance: Metric[];
   education: EducationItem[];
+  certifications: string[];
   projects: Project[];
   process: ProcessStep[];
   ticker: string[];

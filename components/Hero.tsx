@@ -28,7 +28,7 @@ const Hero: React.FC = () => {
               </div>
               
               <h1 className="text-5xl md:text-7xl font-bold text-slate-900 dark:text-white tracking-tight leading-[1.1] mb-6">
-                {content.personalInfo.hero_title_1} <span className="text-indigo-600 dark:text-indigo-400">{content.personalInfo.hero_title_2}</span> & <span className="text-indigo-600 dark:text-indigo-400">{content.personalInfo.hero_title_3}</span>.
+                {content.personalInfo.hero_title_1} <span className="text-indigo-600 dark:text-indigo-400">{content.personalInfo.hero_title_2}</span> <span className="text-indigo-600 dark:text-indigo-400">{content.personalInfo.hero_title_3}</span>
               </h1>
               
               <div className="text-lg md:text-xl text-slate-600 dark:text-slate-400 leading-relaxed mb-8 whitespace-pre-line">
@@ -95,9 +95,9 @@ const Hero: React.FC = () => {
 
           {/* Profile Image */}
           <div className="lg:w-1/2 lg:order-2 order-1 flex justify-center lg:justify-end">
-             <div className="relative w-64 h-64 sm:w-80 sm:h-80 lg:w-[400px] lg:h-[400px]">
+             <div className="relative w-64 h-64 sm:w-80 sm:h-80 lg:w-[300px] lg:h-[300px]">
                 <div className="absolute inset-0 bg-indigo-600 rounded-[2rem] rotate-6 opacity-20 dark:opacity-40 blur-2xl"></div>
-                <div className="relative h-full w-full rounded-[2rem] overflow-hidden border-4 border-white dark:border-slate-800 shadow-2xl rotate-3 hover:rotate-0 transition-all duration-500 bg-slate-100 dark:bg-slate-800">
+                <div className="relative h-full w-full rounded-[2rem] overflow-hidden border-4 border-white dark:border-slate-800 shadow-2xl rotate-3 hover:rotate-0 transition-all duration-500 bg-slate-100 dark:bg-slate-800 ring-1 ring-slate-900/5 dark:ring-white/10">
                   <img 
                     src={content.personalInfo.profile_image} 
                     alt={content.personalInfo.name} 

@@ -49,7 +49,7 @@ const Contact: React.FC = () => {
             <div className="space-y-4">
                 <div className="flex justify-between items-center border-b border-slate-700 pb-3">
                     <span className="text-slate-400">{content.navigation.experience}</span>
-                    <span className="font-semibold">3 Years</span>
+                    <span className="font-semibold">{content.personalInfo.years_experience}</span>
                 </div>
                 <div className="flex justify-between items-center border-b border-slate-700 pb-3">
                     <span className="text-slate-400">Location</span>

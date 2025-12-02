@@ -11,7 +11,7 @@ const Projects: React.FC = () => {
         <div className="mb-16 md:text-center max-w-3xl mx-auto">
           <div className="flex items-center md:justify-center mb-4">
              <div className="p-2 bg-indigo-100 dark:bg-indigo-900/30 rounded-full me-3">
-               <Star size={20} className="text-indigo-600 dark:text-indigo-400" />
+               <Star size={20} className="text-indigo-600 dark:text-indigo-400 fill-current" />
              </div>
              <h2 className="text-3xl md:text-4xl font-bold text-slate-900 dark:text-white">{content.sectionTitles.projects_title}</h2>
           </div>
@@ -27,9 +27,6 @@ const Projects: React.FC = () => {
               {/* Image Container */}
               <div className="relative h-64 overflow-hidden shrink-0 bg-slate-50 dark:bg-slate-800 flex items-center justify-center">
                 <div className="absolute inset-0 bg-slate-900/10 dark:bg-slate-900/40 group-hover:bg-transparent transition-colors z-10"></div>
-                {/* 
-                  Handling Logos (OuiWin, Piximind) vs Photos 
-                */}
                 <img 
                   src={project.image} 
                   alt={project.title} 
@@ -48,7 +45,6 @@ const Projects: React.FC = () => {
                   <h3 className="text-2xl font-bold text-slate-900 dark:text-white group-hover:text-indigo-600 dark:group-hover:text-indigo-400 transition-colors">
                     {project.title}
                   </h3>
-                  {/* Decorative Icon */}
                   <ArrowUpRight className={`text-slate-300 dark:text-slate-600 group-hover:text-indigo-600 dark:group-hover:text-indigo-400 transition-colors ${dir === 'rtl' ? 'rotate-90' : ''}`} />
                 </div>
                 
@@ -57,18 +53,17 @@ const Projects: React.FC = () => {
                 </p>
 
                 <div className="mt-auto">
-                  {/* Key Results */}
-                  <div className="mb-6 p-4 bg-indigo-50/50 dark:bg-indigo-900/20 rounded-xl border border-indigo-100 dark:border-indigo-800/30 transition-colors">
-                    <h4 className="text-sm font-bold text-indigo-900 dark:text-indigo-200 mb-3 uppercase tracking-wider flex items-center">
+                  {/* Key Results - Enhanced Visuals */}
+                  <div className="mb-6 p-5 bg-indigo-50 dark:bg-indigo-950/30 rounded-xl border border-indigo-100 dark:border-indigo-900/50 transition-colors">
+                    <h4 className="text-xs font-bold text-indigo-700 dark:text-indigo-300 mb-3 uppercase tracking-wider flex items-center">
+                      <TrendingUp size={14} className="me-2" />
                       {content.sectionTitles.key_results}
                     </h4>
-                    <ul className="space-y-2">
+                    <ul className="space-y-2.5">
                       {project.results.map((result, idx) => (
                         <li key={idx} className="flex items-start text-sm text-slate-700 dark:text-slate-300 font-medium">
-                          <div className="bg-white dark:bg-slate-800 rounded-full p-1 me-2 shrink-0 border border-indigo-100 dark:border-indigo-900/50 shadow-sm">
-                            <TrendingUp size={12} className="text-emerald-500" />
-                          </div>
-                          <span className="mt-0.5">{result}</span>
+                          <span className="flex-shrink-0 w-1.5 h-1.5 mt-1.5 rounded-full bg-indigo-500 me-2.5 shadow-[0_0_6px_rgba(99,102,241,0.6)]"></span>
+                          <span className="leading-relaxed">{result}</span>
                         </li>
                       ))}
                     </ul>
@@ -77,7 +72,7 @@ const Projects: React.FC = () => {
                   {/* Tags */}
                   <div className="flex flex-wrap gap-2">
                     {project.tags.map((tag, idx) => (
-                      <span key={idx} className="inline-flex items-center px-2.5 py-1 rounded-md text-xs font-medium bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-400 border border-slate-200 dark:border-slate-700 hover:border-indigo-300 dark:hover:border-slate-600 transition-colors">
+                      <span key={idx} className="inline-flex items-center px-2.5 py-1 rounded-md text-xs font-medium bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-400 border border-slate-200 dark:border-slate-700 hover:border-indigo-300 dark:hover:border-slate-600 transition-colors cursor-default">
                         <Tag size={10} className="me-1.5 opacity-70" />
                         {tag}
                       </span>
