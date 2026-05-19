@@ -94,8 +94,8 @@ const Hero: React.FC = () => {
           </div>
 
           {/* Profile Image */}
-          <div className="lg:w-1/2 lg:order-2 order-1 flex justify-center lg:justify-end">
-             <div className="relative w-64 h-64 sm:w-80 sm:h-80 lg:w-[300px] lg:h-[300px]">
+          <div className="lg:w-1/2 lg:order-2 order-1 flex justify-center lg:justify-end w-full">
+             <div className="relative aspect-square w-[85vw] max-w-[360px] sm:max-w-[440px] md:max-w-[500px] lg:max-w-[560px] xl:max-w-[620px]">
                 <div className="absolute inset-0 bg-indigo-600 rounded-[2rem] rotate-6 opacity-20 dark:opacity-40 blur-2xl"></div>
                 <div className="relative h-full w-full rounded-[2rem] overflow-hidden border-4 border-white dark:border-slate-800 shadow-2xl rotate-3 hover:rotate-0 transition-all duration-500 bg-slate-100 dark:bg-slate-800 ring-1 ring-slate-900/5 dark:ring-white/10">
                   <img 

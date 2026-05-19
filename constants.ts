@@ -8,10 +8,10 @@ const IMAGES = {
   profile: "/images/profile.jpg",
 };
 
-// Google Drive Direct Download Links
+// Local FR CV served from /public; EN/AR are Google Drive direct downloads
 const CVS = {
   en: "https://drive.google.com/uc?export=download&id=1OkmN6xoxNweMxOK_N0_90BL1jo2xn_0n",
-  fr: "https://drive.google.com/uc?export=download&id=11m7_5QHuPBPT3P_Ochn8pS1dgh2PcYbH",
+  fr: "/CV_Mohamed_Yassin_Ezzedine.pdf",
   ar: "https://drive.google.com/uc?export=download&id=1FnHOIzHMdyaKt6UAm_w_WnFuvKNSg97j"
 };
 
