@@ -30,7 +30,7 @@ const Contact: React.FC = () => {
                 <div className="w-10 h-10 rounded-full bg-slate-800 dark:bg-slate-900 flex items-center justify-center me-4 group-hover:bg-indigo-600 transition-colors">
                   <Phone size={18} />
                 </div>
-                <span>+216 {content.personalInfo.phone}</span>
+                <span>{content.personalInfo.phone}</span>
               </a>
 
               <a href={content.personalInfo.linkedin} target="_blank" rel="noopener noreferrer" className="flex items-center text-slate-300 hover:text-white transition-colors group">

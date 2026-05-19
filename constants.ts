@@ -5,7 +5,7 @@ const IMAGES = {
   glow: "https://images.unsplash.com/photo-1560066984-138dadb4c035?auto=format&fit=crop&q=80&w=800", // Beauty Salon
   vamous: "https://images.unsplash.com/photo-1554068865-24cecd4e34b8?auto=format&fit=crop&q=80&w=800", // Padel Court
   arena: "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&q=80&w=800", // Logistics/Warehouse
-  profile: "/images/profile.jpg",
+  profile: "https://media.licdn.com/dms/image/v2/D4D03AQEXyRG4dCEMUw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1706954783218?e=1766016000&v=beta&t=Jr53od_Z6GKoKkV_TQgEb-NLJ2ehlZ794qwhbVVHlBQ", 
 };
 
 // Google Drive Direct Download Links
@@ -32,13 +32,13 @@ export const TRANSLATIONS: Record<'en' | 'fr' | 'ar', TranslationData> = {
       title: "Marketing Director & Digital Marketer",
       focus: "Performance, Acquisition, Branding & Automation",
       email: "mohamedyassinezzedine@gmail.com",
-      phone: "44105594",
+      phone: "0033775684370",
       linkedin: "https://www.linkedin.com/in/mohamed-yassin-ezzedine",
-      summary: "Marketing Director at 5e Saison Store and Digital Marketer specialized in strategy, acquisition, and branding. Combining creativity and analytics to drive growth.",
-      location: "Tunisia",
-      years_experience: "3 Years",
-      specialty: "Performance & CRM",
-      education_short: "Master in CRM & Digital Transformations",
+      summary: "Marketing Director at 5e Saison Store (until May 2026) and currently Marketing Lead at SAS SOFTWIN. Digital Marketer specialized in B2B strategy, performance, and growth based in Paris.",
+      location: "Paris, France",
+      years_experience: "4 Years",
+      specialty: "B2B Performance & CRM",
+      education_short: "Education Master in CRM & Digital Transformations",
       contact_btn: "Contact Me",
       linkedin_btn: "View LinkedIn",
       download_cv: "Download CV",
@@ -49,8 +49,8 @@ export const TRANSLATIONS: Record<'en' | 'fr' | 'ar', TranslationData> = {
       hero_title_1: "Welcome to",
       hero_title_2: "Mohamed Yassin",
       hero_title_3: "Portfolio",
-      hero_intro: "Marketing Director | Digital Marketing Executive | Marketing Manager | Sales & Marketing Executive\n\nI'm Mohamed Yassin Ezzedine. Currently Marketing Director at 5e Saison Store, I combine strategy and creativity to build impactful campaigns. Specializing in SEO, paid ads, and content creation, I leverage data to optimize online presence and drive growth. I am committed to delivering excellence through analytical rigor and innovative digital solutions.",
-      profile_image:  IMAGES.profile,
+      hero_intro: "I am Mohamed Yassin Ezzedine, a results-oriented digital marketing professional based in Paris. I help brands develop their online visibility and optimize their performance.\n\nCurrently, I am working on a project with SAS SOFTWIN while remaining open to new opportunities.\n\nI intervene across the entire digital strategy: social media management, advertising campaigns (Meta & Google), SEO, CRM, and e-commerce optimization. My goal: design effective marketing actions that generate measurable growth.\n\nWith a data-driven approach and mastery of tools like WordPress, PrestaShop, and the Adobe suite, I optimize user journeys, improve conversion rates, and strengthen brand identity. Creative and analytical, I also integrate market analysis, communication strategy, UX/UI, and influencer collaborations to maximize the impact of each project.",
+      profile_image: IMAGES.profile
     },
     navigation: {
       about: "About",
@@ -88,11 +88,27 @@ export const TRANSLATIONS: Record<'en' | 'fr' | 'ar', TranslationData> = {
     ],
     experiences: [
       {
+        id: '0',
+        role: "Marketing Lead",
+        company: "SAS SOFTWIN",
+        logo: "https://images.unsplash.com/photo-1560179707-f14e90ef3623?auto=format&fit=crop&q=80&w=200",
+        period: "Since May 2026",
+        type: 'job',
+        description: "Scaling an IT activity (B2B). Structuring and deploying a full-funnel marketing strategy for an IT systems and software consulting company, focusing on qualified lead generation and sales cycle optimization.",
+        achievements: [
+          { label: "Qualified Leads", value: "+45% (B2B)" },
+          { label: "Conversion Rate", value: "+30% MQL → SQL" },
+          { label: "Acquisition Cost", value: "-20% CAC" },
+          { label: "Organic Traffic", value: "+25% (Technical SEO & Content)" },
+          { label: "LinkedIn Engagement", value: "+35% (Personal Branding)" }
+        ]
+      },
+      {
         id: '1',
         role: "Marketing Director",
         company: "5e Saison Store",
         logo: LOGOS.saison,
-        period: "Since Sept. 2024",
+        period: "Sept. 2024 - May 2026",
         type: 'job',
         description: "Leading e-commerce growth strategies for a Loungewear brand, managing full-funnel acquisition, content production, and retention systems.",
         achievements: [
@@ -213,6 +229,15 @@ export const TRANSLATIONS: Record<'en' | 'fr' | 'ar', TranslationData> = {
     ],
     projects: [
       {
+        id: 'p0',
+        title: "Marketing Lead – SAS SOFTWIN",
+        category: "IT & B2B Marketing",
+        description: "Structuring B2B marketing strategy, implementing acquisition funnels (SEO, Ads, LinkedIn), and deploying CRM automation for an IT consulting firm.",
+        results: ["+45% Qualified Leads (B2B)", "+30% MQL → SQL Conversion", "-20% Acquisition Cost (CAC)", "Technical SEO & Content Strategy"],
+        image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=800",
+        tags: ["B2B Strategy", "SEO", "LinkedIn Ads", "CRM Automation", "Lead Gen"]
+      },
+      {
         id: 'p1',
         title: "5e Saison Store",
         category: "E-commerce & Fashion",
@@ -275,12 +300,12 @@ export const TRANSLATIONS: Record<'en' | 'fr' | 'ar', TranslationData> = {
       title: "Directeur Marketing & Digital Marketer",
       focus: "Performance, Acquisition, Branding & Automation",
       email: "mohamedyassinezzedine@gmail.com",
-      phone: "44105594",
+      phone: "0033775684370",
       linkedin: "https://www.linkedin.com/in/mohamed-yassin-ezzedine",
-      summary: "Directeur Marketing chez 5e Saison Store et Marketeur Digital spécialisé en stratégie, acquisition et branding. Alliant créativité et analyse pour stimuler la croissance.",
-      location: "Tunisie",
-      years_experience: "3 Ans",
-      specialty: "Performance & CRM",
+      summary: "Directeur Marketing chez 5e Saison Store (jusqu'en mai 2026) et actuellement Responsable Marketing chez SAS SOFTWIN. Expert en marketing digital spécialisé en stratégie B2B, performance et croissance, basé à Paris.",
+      location: "Paris, France",
+      years_experience: "4 Ans",
+      specialty: "Performance B2B & CRM",
       education_short: "Master en CRM & Transformations Digitales",
       contact_btn: "Contactez-moi",
       linkedin_btn: "Voir LinkedIn",
@@ -290,9 +315,9 @@ export const TRANSLATIONS: Record<'en' | 'fr' | 'ar', TranslationData> = {
       cv_ar: CVS.ar,
       open_to_work: "À l'écoute d'opportunités",
       hero_title_1: "Bienvenue sur le",
-      hero_title_2: "Portfolio de",
+      hero_title_2: "portfolio de",
       hero_title_3: "Mohamed Yassin",
-      hero_intro: "Marketing Director | Digital Marketing Executive | Marketing Manager | Sales & Marketing Executive\n\nJe suis Mohamed Yassin Ezzedine. Actuellement Directeur Marketing chez 5e Saison Store, je combine stratégie et créativité pour concevoir des campagnes percutantes. Spécialisé en SEO, publicités payantes et création de contenu, j'exploite les données pour optimiser la présence en ligne et générer de la croissance. Je m'engage à l'excellence par une rigueur analytique et des solutions digitales innovantes.",
+      hero_intro: "Je suis Mohamed Yassin Ezzedine, spécialiste du marketing digital orienté résultats, basé à Paris.\nJ’accompagne les marques dans le développement de leur visibilité en ligne et l’optimisation de leurs performances.\n\nActuellement en collaboration avec SAS SOFTWIN, je reste ouvert à de nouvelles opportunités.\n\nJ’interviens sur des stratégies digitales complètes : acquisition (Meta & Google Ads), SEO, CRM et optimisation e-commerce, avec un objectif clair : générer une croissance mesurable.\n\nGrâce à une approche data-driven et à la maîtrise d’outils comme WordPress, PrestaShop et Adobe, j’optimise les parcours utilisateurs, améliore la conversion et renforce l’image de marque.",
       profile_image: IMAGES.profile
     },
     navigation: {
@@ -331,13 +356,29 @@ export const TRANSLATIONS: Record<'en' | 'fr' | 'ar', TranslationData> = {
     ],
     experiences: [
       {
+        id: '0',
+        role: "Responsable Marketing",
+        company: "SAS SOFTWIN",
+        logo: "https://images.unsplash.com/photo-1560179707-f14e90ef3623?auto=format&fit=crop&q=80&w=200",
+        period: "Depuis mai 2026",
+        type: 'job',
+        description: "Accélération d’une activité IT (B2B). Structuration et déploiement d’une stratégie marketing full-funnel pour une société de conseil en systèmes et logiciels informatiques, avec un focus sur la génération de leads qualifiés et l’optimisation du cycle de vente.",
+        achievements: [
+          { label: "Leads qualifiés (B2B)", value: "+45%" },
+          { label: "Taux de conversion", value: "+30% MQL → SQL" },
+          { label: "Coût d’acquisition", value: "-20% CAC" },
+          { label: "Trafic organique", value: "+25% (SEO technique & contenu)" },
+          { label: "Engagement LinkedIn", value: "+35% (personal branding & contenu expert)" }
+        ]
+      },
+      {
         id: '1',
         role: "Directeur Marketing",
         company: "5e Saison Store",
         logo: LOGOS.saison,
-        period: "Depuis Sept. 2024",
+        period: "Sept. 2024 - Mai 2026",
         type: 'job',
-        description: "Pilotage des stratégies de croissance e-commerce pour une marque de Loungewear : acquisition full-funnel, production de contenu et rétention.",
+        description: "Pilotage de stratégies de croissance e-commerce pour une marque de Loungewear : acquisition full-funnel, production de contenu et systèmes de rétention.",
         achievements: [
           { label: "Trafic", value: "+38% Trafic Qualifié" },
           { label: "Conversion", value: "+22% Amélioration CVR" },
@@ -381,7 +422,7 @@ export const TRANSLATIONS: Record<'en' | 'fr' | 'ar', TranslationData> = {
         logo: LOGOS.piximind,
         period: "Fév - Mai 2024",
         type: 'job',
-        description: "Étude de marché, positionnement produit et optimisation du funnel pour un SaaS de bien-être mental.",
+        description: "Étude de marché, positionnement produit et optimisation du tunnel de conversion pour un SaaS de bien-être mental.",
         achievements: [
           { label: "Optimisation Funnel", value: "+18% Taux de Conversion" },
           { label: "Lancement", value: "Product Market Fit" },
@@ -391,7 +432,7 @@ export const TRANSLATIONS: Record<'en' | 'fr' | 'ar', TranslationData> = {
       },
       {
         id: '5',
-        role: "Responsable Service Achat",
+        role: "Responsable du service Achats",
         company: "Arena Pro",
         logo: LOGOS.arena,
         period: "Nov 2023 - Jan 2024",
@@ -456,10 +497,19 @@ export const TRANSLATIONS: Record<'en' | 'fr' | 'ar', TranslationData> = {
     ],
     projects: [
       {
+        id: 'p0',
+        title: "Responsable Marketing – SAS SOFTWIN",
+        category: "Marketing IT & B2B",
+        description: "Structuration de la stratégie marketing B2B, mise en place d'un tunnel d'acquisition (SEO, Ads, LinkedIn) et déploiement d'un CRM pour une société de conseil IT.",
+        results: ["+45% Leads qualifiés (B2B)", "+30% Taux de conversion MQL → SQL", "-20% Coût d’acquisition (CAC)", "Optimisation landing pages & SEO"],
+        image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=800",
+        tags: ["Stratégie B2B", "SEO", "LinkedIn Ads", "Automation CRM", "Lead Gen"]
+      },
+      {
         id: 'p1',
         title: "5e Saison Store",
         category: "Mode & E-commerce",
-        description: "Scaling d'une marque de vêtements pour femmes via l'acquisition full-funnel et des stratégies de rétention automatisées.",
+        description: "Croissance d'une marque de vêtements pour femmes via l'acquisition full-funnel et des stratégies de rétention automatisées.",
         results: ["+38% Trafic Qualifié", "+22% Amélioration CVR", "+18% Panier Moyen"],
         image: IMAGES.store,
         tags: ["Meta Ads", "SEO", "Brevo CRM", "UX/UI"]
@@ -518,13 +568,13 @@ export const TRANSLATIONS: Record<'en' | 'fr' | 'ar', TranslationData> = {
       title: "مدير تسويق ومسوق رقمي",
       focus: "الأداء، الاستحواذ، العلامة التجارية والأتمتة",
       email: "mohamedyassinezzedine@gmail.com",
-      phone: "44105594",
+      phone: "0033775684370",
       linkedin: "https://www.linkedin.com/in/mohamed-yassin-ezzedine",
-      summary: "مدير تسويق في 5e Saison Store ومسوق رقمي متخصص في الاستراتيجية والاستحواذ والعلامة التجارية. أجمع بين الإبداع والتحليل لدفع عجلة النمو.",
-      location: "تونس",
-      years_experience: "3 سنوات",
-      specialty: "الأداء و CRM",
-      education_short: " ماجستير في CRM والتحولات الرقمية",
+      summary: "مدير تسويق في 5e Saison Store (حتى مايو 2026) وحالياً مسؤول تسويق في SAS SOFTWIN. مسوق رقمي متخصص في استراتيجية B2B والأداء والنمو، مقره باريس.",
+      location: "باريس، فرنسا",
+      years_experience: "4 سنوات",
+      specialty: "أداء B2B و CRM",
+      education_short: "التعليم ماجستير في CRM والتحولات الرقمية",
       contact_btn: "تواصل معي",
       linkedin_btn: "زيارة LinkedIn",
       download_cv: "تحميل السيرة الذاتية",
@@ -535,7 +585,7 @@ export const TRANSLATIONS: Record<'en' | 'fr' | 'ar', TranslationData> = {
       hero_title_1: "مرحباً بكم في",
       hero_title_2: "محفظة",
       hero_title_3: "محمد ياسين",
-      hero_intro: "Marketing Director | Digital Marketing Executive | Marketing Manager | Sales & Marketing Executive\n\nأنا محمد ياسين عز الدين. بصفتي مدير التسويق الحالي في 5e Saison Store، أجمع بين الاستراتيجية والإبداع لبناء حملات مؤثرة. متخصص في تحسين محركات البحث، والإعلانات المدفوعة، وإنشاء المحتوى، وأوظف البيانات لتعزيز التواجد الرقمي ودفع عجلة النمو. أنا ملتزم بتقديم التميز من خلال الدقة التحليلية والحلول الرقمية المبتكرة.",
+      hero_intro: "أنا محمد ياسين عز الدين، محترف تسويق رقمي موجه نحو النتائج ومقره باريس. أساعد العلامات التجارية على تطوير رؤيتها عبر الإنترنت وتحسين أدائها.\n\nحالياً، أعمل على مشروع مع شركة SAS SOFTWIN مع بقائي منفتحاً على فرص جديدة.\n\nأتدخل في كامل الاستراتيجية الرقمية: إدارة وسائل التواصل الاجتماعي، الحملات الإعلانية (Meta & Google)، تحسين محركات البحث (SEO)، إدارة علاقات العملاء (CRM)، وتحسين التجارة الإلكترونية. هدفي: تصميم إجراءات تسويقية فعالة تولد نمواً ملموساً.\n\nمن خلال نهج قائم على البيانات وإتقان أدوات مثل WordPress و PrestaShop ومجموعة Adobe، أقوم بتحسين رحلات المستخدم وتحسين معدلات التحويل وتعزيز هوية العلامة التجارية. مبدع وتحليلي، أقوم أيضاً بدمج تحليل السوق واستراتيجية الاتصال و UX/UI والتعاون مع المؤثرين لزيادة تأثير كل مشروع.",
       profile_image: IMAGES.profile
     },
     navigation: {
@@ -574,11 +624,27 @@ export const TRANSLATIONS: Record<'en' | 'fr' | 'ar', TranslationData> = {
     ],
     experiences: [
       {
+        id: '0',
+        role: "مسؤول تسويق",
+        company: "SAS SOFTWIN",
+        logo: "https://images.unsplash.com/photo-1560179707-f14e90ef3623?auto=format&fit=crop&q=80&w=200",
+        period: "منذ مايو 2026",
+        type: 'job',
+        description: "توسيع نشاط تكنولوجيا المعلومات (B2B). هيكلة ونشر استراتيجية تسويق كاملة لشركة استشارات في أنظمة وبرمجيات الكمبيوتر، مع التركيز على توليد عملاء محتملين مؤهلين وتحسين دورة المبيعات.",
+        achievements: [
+          { label: "عملاء مؤهلون (B2B)", value: "+45%" },
+          { label: "معدل التحويل", value: "+30% MQL → SQL" },
+          { label: "تكلفة الاستحواذ", value: "-20% CAC" },
+          { label: "زيارات طبيعية", value: "+25% (SEO تقني ومحتوى)" },
+          { label: "تفاعل LinkedIn", value: "+35% (علامة تجارية شخصية ومحتوى خبير)" }
+        ]
+      },
+      {
         id: '1',
         role: "مدير تسويق",
         company: "5e Saison Store",
         logo: LOGOS.saison,
-        period: "منذ سبتمبر 2024",
+        period: "سبتمبر 2024 - مايو 2026",
         type: 'job',
         description: "قيادة استراتيجيات نمو التجارة الإلكترونية لعلامة تجارية للملابس، وإدارة الاستحواذ الكامل، وإنتاج المحتوى، وأنظمة الاحتفاظ بالعملاء.",
         achievements: [
@@ -698,6 +764,15 @@ export const TRANSLATIONS: Record<'en' | 'fr' | 'ar', TranslationData> = {
       "تدريب الأعمال (E2Business Training)"
     ],
     projects: [
+      {
+        id: 'p0',
+        title: "مسؤول تسويق – SAS SOFTWIN",
+        category: "تسويق IT و B2B",
+        description: "هيكلة استراتيجية التسويق B2B، وإنشاء قمع استحواذ (SEO، إعلانات، LinkedIn) ونشر نظام CRM لشركة تكنولوجيا معلومات.",
+        results: ["+45% عملاء مؤهلون (B2B)", "+30% معدل تحويل MQL → SQL", "-20% تكلفة الاستحواذ (CAC)", "تحسين صفحات الهبوط و SEO"],
+        image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=800",
+        tags: ["استراتيجية B2B", "SEO", "إعلانات LinkedIn", "أتمتة CRM", "جلب العملاء"]
+      },
       {
         id: 'p1',
         title: "5e Saison Store",
