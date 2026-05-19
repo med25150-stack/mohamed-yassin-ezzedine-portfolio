@@ -25,13 +25,27 @@ const Projects: React.FC = () => {
             <div key={project.id} className="group flex flex-col bg-white dark:bg-slate-900 rounded-2xl overflow-hidden shadow-sm hover:shadow-xl border border-slate-100 dark:border-slate-800 transition-all duration-300 h-full hover:-translate-y-1">
               
               {/* Image Container */}
-              <div className="relative h-64 overflow-hidden shrink-0 bg-slate-50 dark:bg-slate-800 flex items-center justify-center">
+              <div className="relative h-64 overflow-hidden shrink-0 bg-gradient-to-br from-indigo-500 to-purple-600 dark:from-indigo-700 dark:to-purple-800 flex items-center justify-center">
                 <div className="absolute inset-0 bg-slate-900/10 dark:bg-slate-900/40 group-hover:bg-transparent transition-colors z-10"></div>
-                <img 
-                  src={project.image} 
-                  alt={project.title} 
+                <img
+                  src={project.image}
+                  alt={project.title}
                   className={`w-full h-full ${['p4', 'p6'].includes(project.id) ? 'object-contain p-8 bg-white' : 'object-cover'} transform group-hover:scale-105 transition-transform duration-700 ease-out`}
+                  onError={(e) => {
+                    const img = e.currentTarget;
+                    img.style.display = 'none';
+                    const fallback = img.nextElementSibling as HTMLElement | null;
+                    if (fallback) fallback.style.display = 'flex';
+                  }}
                 />
+                <div
+                  className="absolute inset-0 hidden items-center justify-center text-white"
+                  aria-hidden="true"
+                >
+                  <span className="text-6xl font-extrabold tracking-tight drop-shadow-lg">
+                    {project.title.charAt(0).toUpperCase()}
+                  </span>
+                </div>
                 <div className="absolute top-4 left-4 rtl:left-auto rtl:right-4 z-20">
                   <span className="inline-block px-3 py-1 text-xs font-semibold tracking-wide uppercase text-white bg-indigo-600/90 backdrop-blur-sm rounded-full shadow-lg">
                     {project.category}

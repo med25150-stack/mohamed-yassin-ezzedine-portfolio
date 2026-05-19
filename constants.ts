@@ -5,7 +5,7 @@ const IMAGES = {
   glow: "https://images.unsplash.com/photo-1560066984-138dadb4c035?auto=format&fit=crop&q=80&w=800", // Beauty Salon
   vamous: "https://images.unsplash.com/photo-1554068865-24cecd4e34b8?auto=format&fit=crop&q=80&w=800", // Padel Court
   arena: "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&q=80&w=800", // Logistics/Warehouse
-  profile: "https://media.licdn.com/dms/image/v2/D4D03AQEXyRG4dCEMUw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1706954783218?e=1766016000&v=beta&t=Jr53od_Z6GKoKkV_TQgEb-NLJ2ehlZ794qwhbVVHlBQ", 
+  profile: "/images/profile.jpg",
 };
 
 // Google Drive Direct Download Links
@@ -21,7 +21,7 @@ export const LOGOS = {
   glow: "https://instagram.ftun10-1.fna.fbcdn.net/v/t51.2885-19/497461737_17845470528476935_5572991284823016028_n.jpg?stp=dst-jpg_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=instagram.ftun10-1.fna.fbcdn.net&_nc_cat=107&_nc_oc=Q6cZ2QE2zt-AenNOj6JfR0NN9OdHrDiChOTvn0sXN3cebcGVqSphcZaTB-OVeAGU3KJGbRQ&_nc_ohc=xkKGN-VFQ2sQ7kNvwE7pUnm&_nc_gid=F-lSBp_RaOLU8DZmhEGD6Q&edm=AP4sbd4BAAAA&ccb=7-5&oh=00_Afjvqg13B17bNDYr36dHE-8l0XUAr-RV7Y9cIQwq8Job_w&oe=692B3EBE&_nc_sid=7a9f4b",
   vamous: "https://instagram.ftun10-1.fna.fbcdn.net/v/t51.2885-19/504285857_17848812090496822_2265428684422539717_n.jpg?stp=dst-jpg_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=instagram.ftun10-1.fna.fbcdn.net&_nc_cat=110&_nc_oc=Q6cZ2QGUMrOgkIOwtnI8U9v6FONcBnKHKYYUbARSaKzbkjoK65xvkwjVOblZ1GKaBtWsK6k&_nc_ohc=iIQvzXkrMLoQ7kNvwHb41Z2&_nc_gid=WU-UYjeMiEQ1t8RHG3Aryw&edm=APoiHPcBAAAA&ccb=7-5&oh=00_AfjpHvD8Ud7gZGTLoA0yZM3PZYXivLbyPtSoBr1IwGn8HQ&oe=692B274C&_nc_sid=22de04",
   piximind: "https://www.piximind.com/themes/pkurg-spacebootstrap5/assets/img/svg/logo.svg",
-  ouiwin: "https://ouiwin.fr/wp-content/uploads/2020/09/logo-ouiwin-final-100.png",
+  ouiwin: "/images/ouiwin.png",
   arena: "https://arenapro.ae/wp-content/uploads/2023/10/Arena-Pro-Logo.png"
 };
 
@@ -36,7 +36,7 @@ export const TRANSLATIONS: Record<'en' | 'fr' | 'ar', TranslationData> = {
       linkedin: "https://www.linkedin.com/in/mohamed-yassin-ezzedine",
       summary: "Marketing Director at 5e Saison Store (until May 2026) and currently Marketing Lead at SAS SOFTWIN. Digital Marketer specialized in B2B strategy, performance, and growth based in Paris.",
       location: "Paris, France",
-      years_experience: "4 Years",
+      years_experience: "3 Years",
       specialty: "B2B Performance & CRM",
       education_short: "Education Master in CRM & Digital Transformations",
       contact_btn: "Contact Me",
@@ -304,7 +304,7 @@ export const TRANSLATIONS: Record<'en' | 'fr' | 'ar', TranslationData> = {
       linkedin: "https://www.linkedin.com/in/mohamed-yassin-ezzedine",
       summary: "Directeur Marketing chez 5e Saison Store (jusqu'en mai 2026) et actuellement Responsable Marketing chez SAS SOFTWIN. Expert en marketing digital spécialisé en stratégie B2B, performance et croissance, basé à Paris.",
       location: "Paris, France",
-      years_experience: "4 Ans",
+      years_experience: "3 Ans",
       specialty: "Performance B2B & CRM",
       education_short: "Master en CRM & Transformations Digitales",
       contact_btn: "Contactez-moi",
@@ -572,7 +572,7 @@ export const TRANSLATIONS: Record<'en' | 'fr' | 'ar', TranslationData> = {
       linkedin: "https://www.linkedin.com/in/mohamed-yassin-ezzedine",
       summary: "مدير تسويق في 5e Saison Store (حتى مايو 2026) وحالياً مسؤول تسويق في SAS SOFTWIN. مسوق رقمي متخصص في استراتيجية B2B والأداء والنمو، مقره باريس.",
       location: "باريس، فرنسا",
-      years_experience: "4 سنوات",
+      years_experience: "3 سنوات",
       specialty: "أداء B2B و CRM",
       education_short: "التعليم ماجستير في CRM والتحولات الرقمية",
       contact_btn: "تواصل معي",

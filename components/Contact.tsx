@@ -59,10 +59,6 @@ const Contact: React.FC = () => {
                     <span className="text-slate-400">{content.sectionTitles.skills_edu_title}</span>
                     <span className="font-semibold text-end">{content.personalInfo.education_short}</span>
                 </div>
-                <div className="flex justify-between items-center pb-1">
-                    <span className="text-slate-400">{content.personalInfo.specialty.split(' & ')[0]}</span>
-                    <span className="font-semibold text-end">{content.personalInfo.specialty}</span>
-                </div>
             </div>
           </div>
 
