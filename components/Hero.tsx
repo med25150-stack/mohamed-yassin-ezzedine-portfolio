@@ -60,32 +60,14 @@ const Hero: React.FC = () => {
                   {content.personalInfo.download_cv}:
                 </span>
                 <div className="flex gap-2">
-                  <a 
-                    href={content.personalInfo.cv_en} 
+                  <a
+                    href={content.personalInfo.cv_fr}
                     download
                     target="_blank"
-                    rel="noopener noreferrer" 
-                    className="px-2 py-1 bg-slate-100 dark:bg-slate-800 hover:bg-indigo-100 dark:hover:bg-indigo-900/50 text-slate-700 dark:text-slate-300 hover:text-indigo-700 dark:hover:text-indigo-300 rounded transition-colors"
-                  >
-                    EN
-                  </a>
-                  <a 
-                    href={content.personalInfo.cv_fr} 
-                    download
-                    target="_blank"
-                    rel="noopener noreferrer" 
+                    rel="noopener noreferrer"
                     className="px-2 py-1 bg-slate-100 dark:bg-slate-800 hover:bg-indigo-100 dark:hover:bg-indigo-900/50 text-slate-700 dark:text-slate-300 hover:text-indigo-700 dark:hover:text-indigo-300 rounded transition-colors"
                   >
                     FR
-                  </a>
-                  <a 
-                    href={content.personalInfo.cv_ar} 
-                    download
-                    target="_blank"
-                    rel="noopener noreferrer" 
-                    className="px-2 py-1 bg-slate-100 dark:bg-slate-800 hover:bg-indigo-100 dark:hover:bg-indigo-900/50 text-slate-700 dark:text-slate-300 hover:text-indigo-700 dark:hover:text-indigo-300 rounded transition-colors"
-                  >
-                    AR
                   </a>
                 </div>
               </div>
@@ -95,7 +77,7 @@ const Hero: React.FC = () => {
 
           {/* Profile Image */}
           <div className="lg:w-1/2 lg:order-2 order-1 flex justify-center lg:justify-end w-full">
-             <div className="relative aspect-square w-[85vw] max-w-[360px] sm:max-w-[440px] md:max-w-[500px] lg:max-w-[560px] xl:max-w-[620px]">
+             <div className="relative aspect-square w-[78vw] max-w-[320px] sm:max-w-[400px] md:max-w-[460px] lg:max-w-[510px] xl:max-w-[560px]">
                 <div className="absolute inset-0 bg-indigo-600 rounded-[2rem] rotate-6 opacity-20 dark:opacity-40 blur-2xl"></div>
                 <div className="relative h-full w-full rounded-[2rem] overflow-hidden border-4 border-white dark:border-slate-800 shadow-2xl rotate-3 hover:rotate-0 transition-all duration-500 bg-slate-100 dark:bg-slate-800 ring-1 ring-slate-900/5 dark:ring-white/10">
                   <img 
