@@ -12,7 +12,9 @@ const IMAGES = {
 const CVS = {
   en: "https://drive.google.com/uc?export=download&id=1OkmN6xoxNweMxOK_N0_90BL1jo2xn_0n",
   fr: "/CV_Mohamed_Yassin_Ezzedine.pdf",
-  ar: "https://drive.google.com/uc?export=download&id=1FnHOIzHMdyaKt6UAm_w_WnFuvKNSg97j"
+  ar: "https://drive.google.com/uc?export=download&id=1FnHOIzHMdyaKt6UAm_w_WnFuvKNSg97j",
+  original: "/CV_Mohamed_Yassin_Ezzedine.pdf",
+  ats: "/CV_Mohamed_Yassin_Ezzedine_ATS.pdf"
 };
 
 // Company Logos for Timeline & Project Cards
