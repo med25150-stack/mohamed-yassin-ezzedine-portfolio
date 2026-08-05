@@ -61,13 +61,22 @@ const Hero: React.FC = () => {
                 </span>
                 <div className="flex gap-2">
                   <a
-                    href={content.personalInfo.cv_fr}
+                    href={content.personalInfo.cv_original}
                     download
                     target="_blank"
                     rel="noopener noreferrer"
                     className="px-2 py-1 bg-slate-100 dark:bg-slate-800 hover:bg-indigo-100 dark:hover:bg-indigo-900/50 text-slate-700 dark:text-slate-300 hover:text-indigo-700 dark:hover:text-indigo-300 rounded transition-colors"
                   >
-                    FR
+                    Original
+                  </a>
+                  <a
+                    href={content.personalInfo.cv_ats}
+                    download
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="px-2 py-1 bg-slate-100 dark:bg-slate-800 hover:bg-indigo-100 dark:hover:bg-indigo-900/50 text-slate-700 dark:text-slate-300 hover:text-indigo-700 dark:hover:text-indigo-300 rounded transition-colors"
+                  >
+                    ATS
                   </a>
                 </div>
               </div>
