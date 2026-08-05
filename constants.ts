@@ -47,6 +47,8 @@ export const TRANSLATIONS: Record<'en' | 'fr' | 'ar', TranslationData> = {
       cv_en: CVS.en,
       cv_fr: CVS.fr,
       cv_ar: CVS.ar,
+      cv_original: CVS.original,
+      cv_ats: CVS.ats,
       open_to_work: "Open for Opportunities",
       hero_title_1: "Welcome to",
       hero_title_2: "Mohamed Yassin",
