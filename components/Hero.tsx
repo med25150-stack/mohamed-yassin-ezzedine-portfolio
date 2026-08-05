@@ -4,21 +4,6 @@ import { useLanguage } from '../context/LanguageContext';
 
 const Hero: React.FC = () => {
   const { content, dir } = useLanguage();
-
-  const handleDownload = (url: string) => {
-    if (url.includes('drive.google.com')) {
-      // For Google Drive links, open in new tab
-      window.open(url, '_blank');
-    } else {
-      // For local files, use direct link
-      const link = document.createElement('a');
-      link.href = url;
-      link.download = url.split('/').pop() || 'cv.pdf';
-      document.body.appendChild(link);
-      link.click();
-      document.body.removeChild(link);
-    }
-  };
   
   return (
     <section id="about" className="relative pt-32 pb-20 lg:pt-48 lg:pb-32 overflow-hidden">
@@ -75,18 +60,20 @@ const Hero: React.FC = () => {
                   {content.personalInfo.download_cv}:
                 </span>
                 <div className="flex gap-2">
-                  <button
-                    onClick={() => handleDownload(content.personalInfo.cv_original)}
+                  <a
+                    href={content.personalInfo.cv_original}
+                    download
                     className="px-2 py-1 bg-slate-100 dark:bg-slate-800 hover:bg-indigo-100 dark:hover:bg-indigo-900/50 text-slate-700 dark:text-slate-300 hover:text-indigo-700 dark:hover:text-indigo-300 rounded transition-colors cursor-pointer"
                   >
                     Original
-                  </button>
-                  <button
-                    onClick={() => handleDownload(content.personalInfo.cv_ats)}
+                  </a>
+                  <a
+                    href={content.personalInfo.cv_ats}
+                    download
                     className="px-2 py-1 bg-slate-100 dark:bg-slate-800 hover:bg-indigo-100 dark:hover:bg-indigo-900/50 text-slate-700 dark:text-slate-300 hover:text-indigo-700 dark:hover:text-indigo-300 rounded transition-colors cursor-pointer"
                   >
                     ATS
-                  </button>
+                  </a>
                 </div>
               </div>
 
