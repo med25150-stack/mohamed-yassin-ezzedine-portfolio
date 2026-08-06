@@ -31,16 +31,16 @@ export const TRANSLATIONS: Record<'en' | 'fr' | 'ar', TranslationData> = {
   en: {
     personalInfo: {
       name: "Mohamed Yassin Ezzedine",
-      title: "Marketing Director & Digital Marketer",
+      title: "Digital Marketing & Growth Manager",
       focus: "Performance, Acquisition, Branding & Automation",
       email: "mohamedyassinezzedine@gmail.com",
-      phone: "0033775684370",
+      phone: "07 75 68 43 70",
       linkedin: "https://www.linkedin.com/in/mohamed-yassin-ezzedine",
-      summary: "Marketing Director at 5e Saison Store (until May 2026) and currently Marketing Lead at SAS SOFTWIN. Digital Marketer specialized in B2B strategy, performance, and growth based in Paris.",
+      summary: "Digital Marketing & Growth Manager with over 3 years of experience in digital marketing, CRM, and e-commerce. Expert in SEO, Google Ads, Meta Ads, Google Analytics, PrestaShop, and WordPress.",
       location: "Paris, France",
-      years_experience: "3 Years",
-      specialty: "B2B Performance & CRM",
-      education_short: "Education Master in CRM & Digital Transformations",
+      years_experience: "3+ Years",
+      specialty: "Digital Marketing, Growth & CRM",
+      education_short: "Master's Degree in CRM & Digital Transformations (Bac+5)",
       contact_btn: "Contact Me",
       linkedin_btn: "View LinkedIn",
       download_cv: "Download CV",
@@ -49,11 +49,14 @@ export const TRANSLATIONS: Record<'en' | 'fr' | 'ar', TranslationData> = {
       cv_ar: CVS.ar,
       cv_original: CVS.original,
       cv_ats: CVS.ats,
+      cv: CVS.original,
+      work_authorization: "Authorized to work in France",
+      driving_license: "Permit B",
       open_to_work: "Open for Opportunities",
       hero_title_1: "Welcome to",
       hero_title_2: "Mohamed Yassin",
       hero_title_3: "Portfolio",
-      hero_intro: "I am Mohamed Yassin Ezzedine, a results-oriented digital marketing professional based in Paris. I help brands develop their online visibility and optimize their performance.\n\nCurrently, I am working on a project with SAS SOFTWIN while remaining open to new opportunities.\n\nI intervene across the entire digital strategy: social media management, advertising campaigns (Meta & Google), SEO, CRM, and e-commerce optimization. My goal: design effective marketing actions that generate measurable growth.\n\nWith a data-driven approach and mastery of tools like WordPress, PrestaShop, and the Adobe suite, I optimize user journeys, improve conversion rates, and strengthen brand identity. Creative and analytical, I also integrate market analysis, communication strategy, UX/UI, and influencer collaborations to maximize the impact of each project.",
+      hero_intro: "I am Mohamed Yassin Ezzedine, a Digital Marketing & Growth Manager based in Paris with over 3 years of experience in digital marketing, CRM, and e-commerce.\n\nI support brands in building high-performing marketing strategies, optimizing conversion rates (CRO), managing teams, and leading multi-channel campaigns (Meta Ads, Google Ads, SEO, CRM).\n\nResults-driven and data-oriented, I work across the full funnel to drive sustainable revenue growth.",
       profile_image: IMAGES.profile
     },
     navigation: {
@@ -66,104 +69,62 @@ export const TRANSLATIONS: Record<'en' | 'fr' | 'ar', TranslationData> = {
     },
     sectionTitles: {
       performance_title: "Proven Impact",
-      performance_subtitle: "My strategies don't just look good—they perform. Here is a snapshot of the impact I've delivered in recent roles.",
+      performance_subtitle: "Data-driven marketing strategies focused on revenue growth. Here is a snapshot of the impact delivered across roles.",
       performance_chart_title: "Performance Overview",
-      performance_chart_desc: "Consistently driving double-digit growth across key marketing KPIs through data-driven optimization and creative storytelling.",
+      performance_chart_desc: "Driving measurable growth across key marketing KPIs through data optimization, acquisition, and conversion enhancement.",
       experience_title: "Professional Journey",
-      experience_subtitle: "A track record of taking initiative and delivering results, from freelance projects to directing marketing operations.",
-      skills_tech_title: "Technical Proficiency",
-      skills_edu_title: "Education",
+      experience_subtitle: "Proven track record in digital marketing, project management, multi-channel campaigns, and team leadership.",
+      skills_tech_title: "Technical Skills",
+      skills_edu_title: "Degrees & Education",
       projects_title: "Featured Projects",
-      projects_subtitle: "A selection of recent work highlighting my expertise in driving growth, building brands, and optimizing performance.",
-      contact_title: "Let's Work Together.",
-      contact_subtitle: "Ready to accelerate your brand's growth? I'm currently available for full-time opportunities or freelance consulting.",
+      projects_subtitle: "A selection of recent work highlighting expertise in growth, e-commerce, branding, and conversion optimization.",
+      contact_title: "Let's Work Together",
+      contact_subtitle: "Looking for a Digital Marketing & Growth Manager in Paris? Available for full-time opportunities or consulting.",
       quick_summary: "Quick Summary",
-      certifications: "Certifications",
+      status_label: "Work Authorization",
+      driving_license_label: "Driving License",
+      certifications: "Additional Certifications",
       key_results: "Key Results",
       process_title: "My Process",
-      process_subtitle: "A data-driven approach to scaling businesses."
+      process_subtitle: "A data-driven methodology to scale digital growth."
     },
-    ticker: ["STRATEGY", "GROWTH", "BRANDING", "AUTOMATION", "PERFORMANCE", "SEO", "ADS", "CRM", "CONTENT"],
+    ticker: ["DIGITAL MARKETING", "GROWTH", "META ADS", "GOOGLE ADS", "SEO", "CRM", "PRESTASHOP", "WORDPRESS"],
     process: [
-      { id: '1', title: "Discovery", description: "Analyzing market gaps and brand potential.", icon: 'search' },
-      { id: '2', title: "Strategy", description: "Crafting data-driven roadmaps for growth.", icon: 'strategy' },
-      { id: '3', title: "Execution", description: "Launching high-impact campaigns & systems.", icon: 'rocket' },
-      { id: '4', title: "Optimization", description: "Scaling results through continuous iteration.", icon: 'chart' }
+      { id: '1', title: "Discovery", description: "Data analysis, market research, and growth opportunity audits.", icon: 'search' },
+      { id: '2', title: "Strategy", description: "Crafting multi-channel roadmaps and setting clear KPI targets.", icon: 'strategy' },
+      { id: '3', title: "Execution", description: "Launching campaigns, content creation, and conversion funnels.", icon: 'rocket' },
+      { id: '4', title: "Optimization", description: "Analyzing conversions and maximizing return on ad spend.", icon: 'chart' }
     ],
     experiences: [
       {
-        id: '0',
-        role: "Marketing Lead",
-        company: "SAS SOFTWIN",
-        logo: "https://images.unsplash.com/photo-1560179707-f14e90ef3623?auto=format&fit=crop&q=80&w=200",
-        period: "Since May 2026",
-        type: 'job',
-        description: "Scaling an IT activity (B2B). Structuring and deploying a full-funnel marketing strategy for an IT systems and software consulting company, focusing on qualified lead generation and sales cycle optimization.",
-        achievements: [
-          { label: "Qualified Leads", value: "+45% (B2B)" },
-          { label: "Conversion Rate", value: "+30% MQL → SQL" },
-          { label: "Acquisition Cost", value: "-20% CAC" },
-          { label: "Organic Traffic", value: "+25% (Technical SEO & Content)" },
-          { label: "LinkedIn Engagement", value: "+35% (Personal Branding)" }
-        ]
-      },
-      {
         id: '1',
-        role: "Marketing Director",
+        role: "Marketing and Communication Manager",
         company: "5e Saison Store",
         logo: LOGOS.saison,
-        period: "Sept. 2024 - May 2026",
+        period: "Sept. 2024 - June 2026",
         type: 'job',
-        description: "Leading e-commerce growth strategies for a Loungewear brand, managing full-funnel acquisition, content production, and retention systems.",
+        description: "Defined and deployed digital marketing strategy, managed multi-channel Meta Ads campaigns, influencer partnerships, and led marketing team.",
         achievements: [
-          { label: "Traffic Growth", value: "+38% Qualified Traffic" },
-          { label: "Conversion", value: "+22% CVR Improvement" },
-          { label: "Avg Order Value", value: "+18% AOV Growth" },
-          { label: "Engagement", value: "+40% Instagram Growth" },
-          { label: "Cart Recovery", value: "35% via Brevo Automation" }
-        ]
-      },
-      {
-        id: '2',
-        role: "Freelance Brand Consultant",
-        company: "Glow by Manel",
-        logo: LOGOS.glow,
-        period: "2024",
-        type: 'freelance',
-        description: "Complete branding, launch strategy, and customer retention systems for a new beauty salon.",
-        achievements: [
-          { label: "Acquisition", value: "1200+ Clients in 4 months" },
-          { label: "Brand Identity", value: "Slogan & Visual Identity" },
-          { label: "Social Media", value: "Full Setup & Content Strategy" }
-        ]
-      },
-      {
-        id: '3',
-        role: "Sponsorship Coordinator",
-        company: "Vamous Club",
-        logo: LOGOS.vamous,
-        period: "2024",
-        type: 'freelance',
-        description: "Strategic sponsorship acquisition and market positioning for a Padel, Tennis & Football club.",
-        achievements: [
-          { label: "Partnerships", value: "4 Major Sponsors Secured" },
-          { label: "Revenue", value: "Projected +15% Growth" },
-          { label: "Reservations", value: "Optimized Booking Flow" }
+          { label: "Web Traffic", value: "+38% Increase" },
+          { label: "Conversion Rate", value: "+36% (8 new collections)" },
+          { label: "Meta Ads", value: "Optimized & increased revenue" },
+          { label: "Influencers", value: "15,000+ reach (10+ creators)" },
+          { label: "Team Lead", value: "Managed 5 team members" }
         ]
       },
       {
         id: '4',
-        role: "Marketing & Product Developer",
-        company: "Piximind (SaaS)",
+        role: "Marketing & Product Development",
+        company: "PIXIMIND",
         logo: LOGOS.piximind,
-        period: "Feb - May 2024",
+        period: "Feb. 2024 - May 2024",
         type: 'job',
-        description: "Market research, product positioning, and funnel optimization for a mental wellness SaaS.",
+        description: "Conducted market research and competitive benchmarks, created and optimized lead acquisition landing pages, and tracked KPIs via Google Analytics.",
         achievements: [
-          { label: "Funnel Optimization", value: "+18% Conversion Rate" },
-          { label: "Launch", value: "SaaS Product Market Fit" },
-          { label: "Content", value: "Produced Video Ads" },
-          { label: "Landing Page", value: "High CTR Design" }
+          { label: "Conversion Rate", value: "+18% Increase on landing pages" },
+          { label: "Acquisition", value: "High-converting landing pages" },
+          { label: "Market Research", value: "Benchmarks & growth avenues" },
+          { label: "Analytics", value: "GA4 setup & KPI tracking" }
         ]
       },
       {
@@ -171,76 +132,68 @@ export const TRANSLATIONS: Record<'en' | 'fr' | 'ar', TranslationData> = {
         role: "Purchasing Department Manager",
         company: "Arena Pro",
         logo: LOGOS.arena,
-        period: "Nov 2023 - Jan 2024",
+        period: "Nov. 2023 - Jan. 2024",
         type: 'job',
-        description: "Managed supplier negotiations, CRM order tracking, and inventory monitoring. Coordinated with marketing and sales teams.",
+        description: "Managed stock and inventory purchasing, negotiated prices and terms with suppliers, and coordinated across departments.",
         achievements: [
-          { label: "Cost Reduction", value: "12% via Negotiation" },
-          { label: "Process", value: "Optimized Purchasing Flow" }
+          { label: "Suppliers", value: "Negotiated with 12 key suppliers" },
+          { label: "Supply Chain", value: "Sales, Marketing & Finance coordination" },
+          { label: "Sourcing", value: "Prospecting & stock securing" }
         ]
       },
       {
         id: '6',
         role: "Assistant Marketing Manager",
-        company: "OuiWin",
+        company: "OUIWIN",
         logo: LOGOS.ouiwin,
-        period: "2021 & 2023",
+        period: "July 2023 - Aug. 2023",
         type: 'job',
-        description: "Managed social media, created visual content, optimized SEO, and developed websites using WordPress & PrestaShop.",
+        description: "Analyzed campaign performance via Google Analytics across 2 websites, optimized user behavior, and developed SEO showcase websites.",
         achievements: [
-          { label: "Engagement", value: "+28% Social Media Growth" },
-          { label: "SEO", value: "Multi-site Optimization" },
-          { label: "Web Dev", value: "WordPress & PrestaShop" }
+          { label: "Google Analytics", value: "Campaign analysis on 2 sites" },
+          { label: "Web Dev", value: "WordPress & PrestaShop" },
+          { label: "SEO", value: "On-page SEO best practices" }
         ]
       }
     ],
     skills: [
       {
-        title: "Digital Strategy",
+        title: "Digital Marketing & Growth",
         icon: 'strategy',
-        skills: ["Meta Ads", "Google Ads", "SEO", "Market Research", "CRO", "Copywriting", "Brand Strategy"]
+        skills: ["SEO", "Google Ads", "Meta Ads", "Google Analytics 4", "Marketing Strategy", "CRO", "Brand Strategy"]
       },
       {
-        title: "CRM & Technical",
+        title: "CMS & CRM",
         icon: 'tech',
-        skills: ["Brevo", "HubSpot CRM", "WordPress", "PrestaShop", "Shopify", "Zapier", "UX/UI Design"]
+        skills: ["WordPress", "PrestaShop", "Brevo CRM", "HubSpot CRM", "Shopify", "UX/UI Design"]
       },
       {
-        title: "Creative & Analytics",
+        title: "Creative & Office Suite",
         icon: 'creative',
-        skills: ["Photoshop", "Illustrator", "Premiere", "Google Analytics", "CapCut", "Canva", "Figma", "After Effects"]
+        skills: ["Adobe Photoshop", "Adobe Illustrator", "Adobe Premiere", "Microsoft Excel", "Microsoft Word", "Microsoft PowerPoint", "Canva", "Figma"]
       },
       {
         title: "AI & Productivity",
         icon: 'ai',
-        skills: ["ChatGPT", "Gemini", "Veo", "Google AI", "Midjourney", "Notion", "Claude", "Jasper"]
+        skills: ["ChatGPT", "Gemini", "Claude", "Google AI", "Notion", "Midjourney"]
       }
     ],
     performance: [
-      { name: 'Traffic', value: 40, label: 'Traffic Growth', suffix: '%', color: '#4f46e5' },
-      { name: 'Engagement', value: 40, label: 'Social Engagement', suffix: '%', color: '#ec4899' },
-      { name: 'Recovery', value: 35, label: 'Cart Recovery', suffix: '%', color: '#10b981' },
-      { name: 'CVR', value: 25, label: 'Conversion Rate', suffix: '%', color: '#f59e0b' },
+      { name: 'Traffic', value: 38, label: 'Web Traffic Growth', suffix: '%', color: '#4f46e5' },
+      { name: 'Conversion', value: 36, label: 'Conversion Growth', suffix: '%', color: '#ec4899' },
+      { name: 'Landing Pages', value: 18, label: 'Lead Conversion', suffix: '%', color: '#10b981' },
+      { name: 'CAC', value: 20, label: 'CAC Reduction', suffix: '%', color: '#f59e0b' },
     ],
     education: [
-      { degree: "Master in CRM & Digital Transformations", school: "FSEG Sfax", year: "2022 – 2024" },
-      { degree: "Licence in Marketing", school: "ISAA Sfax", year: "2018 – 2022" }
+      { degree: "Master's Degree in CRM & Digital Transformations (Bac+5)", school: "Faculty of Economics and Management of Sfax (FSEG) | Honors: Very Good", year: "2022 – 2024" },
+      { degree: "Bachelor's Degree in Business Management: Marketing (Bac+3)", school: "Higher Institute of Business Administration of Sfax (ISAA) | Honors: Good", year: "2018 – 2022" }
     ],
     certifications: [
-      "Pedagogical Enterprise Training (Arena Pro)",
-      "SEO (Maha.Digital)",
-      "E2Business Training"
+      "SEO Certification - Maha.Digital",
+      "Professional SEO Certification - E2Business Training",
+      "Pedagogical Enterprise Training - Arena Pro"
     ],
     projects: [
-      {
-        id: 'p0',
-        title: "Marketing Lead – SAS SOFTWIN",
-        category: "IT & B2B Marketing",
-        description: "Structuring B2B marketing strategy, implementing acquisition funnels (SEO, Ads, LinkedIn), and deploying CRM automation for an IT consulting firm.",
-        results: ["+45% Qualified Leads (B2B)", "+30% MQL → SQL Conversion", "-20% Acquisition Cost (CAC)", "Technical SEO & Content Strategy"],
-        image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=800",
-        tags: ["B2B Strategy", "SEO", "LinkedIn Ads", "CRM Automation", "Lead Gen"]
-      },
       {
         id: 'p1',
         title: "5e Saison Store",
@@ -297,33 +250,36 @@ export const TRANSLATIONS: Record<'en' | 'fr' | 'ar', TranslationData> = {
       }
     ]
   },
-  
+
   fr: {
     personalInfo: {
       name: "Mohamed Yassin Ezzedine",
-      title: "Directeur Marketing & Digital Marketer",
+      title: "Digital Marketing & Growth Manager",
       focus: "Performance, Acquisition, Branding & Automation",
       email: "mohamedyassinezzedine@gmail.com",
-      phone: "0033775684370",
+      phone: "07 75 68 43 70",
       linkedin: "https://www.linkedin.com/in/mohamed-yassin-ezzedine",
-      summary: "Directeur Marketing chez 5e Saison Store (jusqu'en mai 2026) et actuellement Responsable Marketing chez SAS SOFTWIN. Expert en marketing digital spécialisé en stratégie B2B, performance et croissance, basé à Paris.",
+      summary: "Marketing Digital & Growth Manager avec plus de 3 ans d'expérience dans le marketing digital, le CRM et le e-commerce. Expert en SEO, Google Ads, Meta Ads, Google Analytics, PrestaShop et WordPress.",
       location: "Paris, France",
-      years_experience: "3 Ans",
-      specialty: "Performance B2B & CRM",
-      education_short: "Master en CRM & Transformations Digitales",
+      years_experience: "3+ Ans",
+      specialty: "Digital Marketing, Growth & CRM",
+      education_short: "Master en CRM & Transformations Digitales (Bac+5)",
       contact_btn: "Contactez-moi",
       linkedin_btn: "Voir LinkedIn",
-      download_cv: "Télécharger CV",
+      download_cv: "Télécharger mon CV",
       cv_en: CVS.en,
       cv_fr: CVS.fr,
       cv_ar: CVS.ar,
       cv_original: CVS.original,
       cv_ats: CVS.ats,
+      cv: CVS.fr,
+      work_authorization: "Autorisé à travailler en France",
+      driving_license: "Permis B",
       open_to_work: "À l'écoute d'opportunités",
       hero_title_1: "Bienvenue sur le",
       hero_title_2: "portfolio de",
       hero_title_3: "Mohamed Yassin",
-      hero_intro: "Je suis Mohamed Yassin Ezzedine, spécialiste du marketing digital orienté résultats, basé à Paris.\nJ’accompagne les marques dans le développement de leur visibilité en ligne et l’optimisation de leurs performances.\n\nActuellement en collaboration avec SAS SOFTWIN, je reste ouvert à de nouvelles opportunités.\n\nJ’interviens sur des stratégies digitales complètes : acquisition (Meta & Google Ads), SEO, CRM et optimisation e-commerce, avec un objectif clair : générer une croissance mesurable.\n\nGrâce à une approche data-driven et à la maîtrise d’outils comme WordPress, PrestaShop et Adobe, j’optimise les parcours utilisateurs, améliore la conversion et renforce l’image de marque.",
+      hero_intro: "Je suis Mohamed Yassin Ezzedine, Digital Marketing & Growth Manager basé à Paris, avec plus de 3 ans d'expérience en marketing digital, CRM et e-commerce.\n\nJ'accompagne les marques dans la création de stratégies marketing performantes, l'optimisation du taux de conversion (CRO), la gestion d'équipes et le pilotage de campagnes multicanales (Meta Ads, Google Ads, SEO, CRM).\n\nOrienté résultats et analyse de données, j'interviens sur l'ensemble du funnel pour stimuler la croissance du chiffre d'affaires.",
       profile_image: IMAGES.profile
     },
     navigation: {
@@ -336,181 +292,131 @@ export const TRANSLATIONS: Record<'en' | 'fr' | 'ar', TranslationData> = {
     },
     sectionTitles: {
       performance_title: "Impact Mesurable",
-      performance_subtitle: "Mes stratégies ne sont pas seulement esthétiques, elles sont performantes. Voici un aperçu de l'impact généré dans mes rôles récents.",
+      performance_subtitle: "Des stratégies marketing orientées résultats et croissance du chiffre d'affaires. Aperçu de l'impact généré dans mes fonctions.",
       performance_chart_title: "Aperçu des Performances",
-      performance_chart_desc: "Une croissance à deux chiffres constante sur les KPI marketing clés grâce à l'optimisation des données et au storytelling créatif.",
+      performance_chart_desc: "Une croissance mesurable sur les KPI marketing clés grâce à l'optimisation des données, l'acquisition et la conversion.",
       experience_title: "Parcours Professionnel",
-      experience_subtitle: "Un historique de prises d'initiative et de résultats, des projets freelance à la direction des opérations marketing.",
+      experience_subtitle: "Expérience confirmée en marketing digital, gestion de projets, campagnes multicanales et management d'équipe.",
       skills_tech_title: "Compétences Techniques",
-      skills_edu_title: "Éducation",
+      skills_edu_title: "Diplômes & Formations",
       projects_title: "Projets à la Une",
-      projects_subtitle: "Une sélection de travaux récents mettant en valeur mon expertise en croissance, branding et optimisation.",
-      contact_title: "Travaillons Ensemble.",
-      contact_subtitle: "Prêt à accélérer la croissance de votre marque ? Je suis disponible pour des opportunités à temps plein ou du consulting freelance.",
+      projects_subtitle: "Une sélection de réalisations mettant en valeur mon expertise en croissance, e-commerce, branding et optimisation.",
+      contact_title: "Travaillons Ensemble",
+      contact_subtitle: "À la recherche d'un Digital Marketing & Growth Manager à Paris ? Je suis disponible pour échanger sur vos projets.",
       quick_summary: "Résumé Rapide",
-      certifications: "Certifications",
+      status_label: "Statut",
+      driving_license_label: "Permis de conduire",
+      certifications: "Formations Complémentaires",
       key_results: "Résultats Clés",
       process_title: "Ma Méthodologie",
-      process_subtitle: "Une approche axée sur les données pour faire évoluer les entreprises."
+      process_subtitle: "Une approche axée sur les données pour stimuler la croissance."
     },
-    ticker: ["STRATÉGIE", "CROISSANCE", "BRANDING", "AUTOMATION", "PERFORMANCE", "SEO", "ADS", "CRM", "CONTENU"],
+    ticker: ["MARKETING DIGITAL", "GROWTH", "META ADS", "GOOGLE ADS", "SEO", "CRM", "PRESTASHOP", "WORDPRESS"],
     process: [
-      { id: '1', title: "Découverte", description: "Analyse des lacunes du marché et du potentiel de la marque.", icon: 'search' },
-      { id: '2', title: "Stratégie", description: "Création de feuilles de route axées sur les données.", icon: 'strategy' },
-      { id: '3', title: "Mise en Œuvre", description: "Lancement de campagnes et de systèmes à fort impact.", icon: 'rocket' },
-      { id: '4', title: "Optimisation", description: "Mise à l'échelle des résultats par itération continue.", icon: 'chart' }
+      { id: '1', title: "Découverte", description: "Analyse des données, études de marché et audit des opportunités.", icon: 'search' },
+      { id: '2', title: "Stratégie", description: "Élaboration de feuilles de route multicanales et objectifs KPI.", icon: 'strategy' },
+      { id: '3', title: "Mise en Œuvre", description: "Déploiement de campagnes, création de contenu et funnels.", icon: 'rocket' },
+      { id: '4', title: "Optimisation", description: "Analyse des conversions et maximisation du ROI.", icon: 'chart' }
     ],
     experiences: [
       {
-        id: '0',
-        role: "Responsable Marketing",
-        company: "SAS SOFTWIN",
-        logo: "https://images.unsplash.com/photo-1560179707-f14e90ef3623?auto=format&fit=crop&q=80&w=200",
-        period: "Depuis mai 2026",
-        type: 'job',
-        description: "Accélération d’une activité IT (B2B). Structuration et déploiement d’une stratégie marketing full-funnel pour une société de conseil en systèmes et logiciels informatiques, avec un focus sur la génération de leads qualifiés et l’optimisation du cycle de vente.",
-        achievements: [
-          { label: "Leads qualifiés (B2B)", value: "+45%" },
-          { label: "Taux de conversion", value: "+30% MQL → SQL" },
-          { label: "Coût d’acquisition", value: "-20% CAC" },
-          { label: "Trafic organique", value: "+25% (SEO technique & contenu)" },
-          { label: "Engagement LinkedIn", value: "+35% (personal branding & contenu expert)" }
-        ]
-      },
-      {
         id: '1',
-        role: "Directeur Marketing",
+        role: "Responsable Marketing et Communication",
         company: "5e Saison Store",
         logo: LOGOS.saison,
-        period: "Sept. 2024 - Mai 2026",
+        period: "Sept. 2024 - Juin 2026",
         type: 'job',
-        description: "Pilotage de stratégies de croissance e-commerce pour une marque de Loungewear : acquisition full-funnel, production de contenu et systèmes de rétention.",
+        description: "Définition et déploiement de la stratégie marketing digitale, gestion des campagnes multicanales Meta Ads, partenariats influenceurs et encadrement d'équipe.",
         achievements: [
-          { label: "Trafic", value: "+38% Trafic Qualifié" },
-          { label: "Conversion", value: "+22% Amélioration CVR" },
-          { label: "Panier Moyen", value: "+18% Croissance AOV" },
-          { label: "Engagement", value: "+40% Croissance Instagram" },
-          { label: "Récupération", value: "35% via Automation Brevo" }
-        ]
-      },
-      {
-        id: '2',
-        role: "Consultant Brand Freelance",
-        company: "Glow by Manel",
-        logo: LOGOS.glow,
-        period: "2024",
-        type: 'freelance',
-        description: "Branding complet, stratégie de lancement et systèmes de fidélisation pour un nouveau salon de beauté.",
-        achievements: [
-          { label: "Acquisition", value: "1200+ Clients en 4 mois" },
-          { label: "Identité", value: "Slogan & Identité Visuelle" },
-          { label: "Réseaux Sociaux", value: "Setup Complet & Stratégie" }
-        ]
-      },
-      {
-        id: '3',
-        role: "Coordinateur Sponsoring",
-        company: "Vamous Club",
-        logo: LOGOS.vamous,
-        period: "2024",
-        type: 'freelance',
-        description: "Acquisition stratégique de sponsors et positionnement marché pour un complexe de Padel, Tennis & Football.",
-        achievements: [
-          { label: "Partenariats", value: "4 Sponsors Majeurs" },
-          { label: "Revenus", value: "Projection +15% Croissance" },
-          { label: "Réservations", value: "Flux optimisé" }
+          { label: "Trafic web", value: "+38% d'augmentation" },
+          { label: "Conversion", value: "+36% (8 nouvelles collections)" },
+          { label: "Campagnes Ads", value: "Meta Ads & hausse du CA e-commerce" },
+          { label: "Influenceurs", value: "15 000+ portée (10+ créateurs)" },
+          { label: "Management", value: "Encadrement de 5 collaborateurs" }
         ]
       },
       {
         id: '4',
-        role: "Marketing & Product Developer",
-        company: "Piximind (SaaS)",
+        role: "Marketing et développement de produits",
+        company: "PIXIMIND",
         logo: LOGOS.piximind,
-        period: "Fév - Mai 2024",
+        period: "Fév. 2024 - Mai 2024",
         type: 'job',
-        description: "Étude de marché, positionnement produit et optimisation du tunnel de conversion pour un SaaS de bien-être mental.",
+        description: "Études de marché, benchmarks concurrentiels, création et optimisation de landing pages d'acquisition et suivi des KPI via Google Analytics.",
         achievements: [
-          { label: "Optimisation Funnel", value: "+18% Taux de Conversion" },
-          { label: "Lancement", value: "Product Market Fit" },
-          { label: "Contenu", value: "Production Publicités Vidéo" },
-          { label: "Landing Page", value: "Design à fort CTR" }
+          { label: "Conversion", value: "+18% de hausse du taux de conversion" },
+          { label: "Acquisition", value: "Landing pages optimisées" },
+          { label: "Market Research", value: "Benchmarks & opportunités de croissance" },
+          { label: "Analytics", value: "Suivi Google Analytics 4 & KPI" }
         ]
       },
       {
         id: '5',
-        role: "Responsable du service Achats",
+        role: "Responsable de département d'achat",
         company: "Arena Pro",
         logo: LOGOS.arena,
-        period: "Nov 2023 - Jan 2024",
+        period: "Nov. 2023 - Jan. 2024",
         type: 'job',
-        description: "Négociation fournisseurs, suivi des commandes CRM et gestion des stocks. Coordination avec les équipes marketing et commerciales.",
+        description: "Gestion des achats de stock et de consommation courante, négociation des prix et conditions, et coordination inter-services.",
         achievements: [
-          { label: "Réduction Coûts", value: "12% via Négociation" },
-          { label: "Processus", value: "Flux d'achat optimisé" }
+          { label: "Fournisseurs", value: "Négociation auprès de 12 fournisseurs" },
+          { label: "Approvisionnement", value: "Coordination Ventes, Marketing & Finance" },
+          { label: "Sourcing", value: "Prospection & sécurisation des stocks" }
         ]
       },
       {
         id: '6',
-        role: "Assistant Responsable Marketing",
-        company: "OuiWin",
+        role: "Assistant responsable marketing",
+        company: "OUIWIN",
         logo: LOGOS.ouiwin,
-        period: "2021 & 2023",
+        period: "Juil. 2023 - Août 2023",
         type: 'job',
-        description: "Gestion des réseaux sociaux, création de contenu visuel, optimisation SEO et développement de sites WordPress & PrestaShop.",
+        description: "Analyse des performances de campagnes via Google Analytics sur 2 sites, optimisation du comportement utilisateur et création de sites vitrines SEO.",
         achievements: [
-          { label: "Engagement", value: "+28% Croissance Social Media" },
-          { label: "SEO", value: "Optimisation Multi-sites" },
-          { label: "Dév Web", value: "WordPress & PrestaShop" }
+          { label: "Analytics", value: "Analyse Google Analytics sur 2 sites" },
+          { label: "Dév Web", value: "WordPress & PrestaShop" },
+          { label: "SEO", value: "Bonnes pratiques SEO on-page" }
         ]
       }
     ],
     skills: [
       {
-        title: "Stratégie Digitale",
+        title: "Marketing Digital & Growth",
         icon: 'strategy',
-        skills: ["Meta Ads", "Google Ads", "SEO", "Étude de Marché", "CRO", "Copywriting", "Stratégie de Marque"]
+        skills: ["SEO (Référencement)", "Google Ads", "Meta Ads", "Google Analytics 4", "Stratégies Marketing", "Optimisation Conversion (CRO)", "Stratégie de Marque"]
       },
       {
-        title: "CRM & Technique",
+        title: "CMS & CRM",
         icon: 'tech',
-        skills: ["Brevo", "HubSpot CRM", "WordPress", "PrestaShop", "Shopify", "Zapier", "UX/UI Design"]
+        skills: ["WordPress", "PrestaShop", "Brevo CRM", "HubSpot CRM", "Shopify", "UX/UI Design"]
       },
       {
-        title: "Créatif & Analytics",
+        title: "Créatif & Bureautique",
         icon: 'creative',
-        skills: ["Photoshop", "Illustrator", "Premiere", "Google Analytics", "CapCut", "Canva", "Figma", "After Effects"]
+        skills: ["Adobe Photoshop", "Adobe Illustrator", "Adobe Premiere", "Microsoft Excel", "Microsoft Word", "Microsoft PowerPoint", "Canva", "Figma"]
       },
       {
-        title: "IA & Outils",
+        title: "IA & Productivité",
         icon: 'ai',
-        skills: ["ChatGPT", "Gemini", "Veo", "Google AI", "Midjourney", "Notion", "Claude", "Jasper"]
+        skills: ["ChatGPT", "Gemini", "Claude", "Google AI", "Notion", "Midjourney"]
       }
     ],
     performance: [
-      { name: 'Trafic', value: 40, label: 'Croissance Trafic', suffix: '%', color: '#4f46e5' },
-      { name: 'Engagement', value: 40, label: 'Engagement Social', suffix: '%', color: '#ec4899' },
-      { name: 'Récup.', value: 35, label: 'Récup. Panier', suffix: '%', color: '#10b981' },
-      { name: 'CVR', value: 25, label: 'Taux Conversion', suffix: '%', color: '#f59e0b' },
+      { name: 'Trafic', value: 38, label: 'Hausse Trafic Web', suffix: '%', color: '#4f46e5' },
+      { name: 'Conversion', value: 36, label: 'Hausse Conversion', suffix: '%', color: '#ec4899' },
+      { name: 'Landing Pages', value: 18, label: 'Conversion Leads', suffix: '%', color: '#10b981' },
+      { name: 'CAC', value: 20, label: 'Réduction CAC', suffix: '%', color: '#f59e0b' },
     ],
     education: [
-      { degree: "Master en CRM & Transformations Digitales", school: "FSEG Sfax", year: "2022 – 2024" },
-      { degree: "Licence en Marketing", school: "ISAA Sfax", year: "2018 – 2022" }
+      { degree: "Master professionnel en CRM et transformations digitales (Bac+5)", school: "Faculté des Sciences Économiques et de Gestion de Sfax (FSEG) | Mention très bien", year: "2022 – 2024" },
+      { degree: "Licence en Sciences de Gestion : Marketing (Bac+3)", school: "Institut Supérieur d'Administration des Affaires de Sfax (ISAA) | Mention bien", year: "2018 – 2022" }
     ],
     certifications: [
-      "Formation en Entreprise Pédagogique (Arena Pro)",
-      "Référencement naturel SEO (Maha.Digital)",
-      "Référencement naturel (E2Business Training)"
+      "Certificat de formation en référencement naturel (SEO) - Maha.Digital",
+      "Certificat de formation professionnelle en référencement naturel - E2Business Training",
+      "Certificat de formation en EEP (Entreprise d'Entraînement Pédagogique) - Arena Pro"
     ],
     projects: [
-      {
-        id: 'p0',
-        title: "Responsable Marketing – SAS SOFTWIN",
-        category: "Marketing IT & B2B",
-        description: "Structuration de la stratégie marketing B2B, mise en place d'un tunnel d'acquisition (SEO, Ads, LinkedIn) et déploiement d'un CRM pour une société de conseil IT.",
-        results: ["+45% Leads qualifiés (B2B)", "+30% Taux de conversion MQL → SQL", "-20% Coût d’acquisition (CAC)", "Optimisation landing pages & SEO"],
-        image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=800",
-        tags: ["Stratégie B2B", "SEO", "LinkedIn Ads", "Automation CRM", "Lead Gen"]
-      },
       {
         id: 'p1',
         title: "5e Saison Store",
@@ -571,16 +477,16 @@ export const TRANSLATIONS: Record<'en' | 'fr' | 'ar', TranslationData> = {
   ar: {
     personalInfo: {
       name: "محمد ياسين عز الدين",
-      title: "مدير تسويق ومسوق رقمي",
+      title: "مدير التسويق الرقمي والنمو (Digital Marketing & Growth Manager)",
       focus: "الأداء، الاستحواذ، العلامة التجارية والأتمتة",
       email: "mohamedyassinezzedine@gmail.com",
-      phone: "0033775684370",
+      phone: "07 75 68 43 70",
       linkedin: "https://www.linkedin.com/in/mohamed-yassin-ezzedine",
-      summary: "مدير تسويق في 5e Saison Store (حتى مايو 2026) وحالياً مسؤول تسويق في SAS SOFTWIN. مسوق رقمي متخصص في استراتيجية B2B والأداء والنمو، مقره باريس.",
+      summary: "مدير التسويق الرقمي والنمو بخبرة تزيد عن 3 سنوات في التسويق الرقمي، إدارة علاقات العملاء (CRM)، والتجارة الإلكترونية. خبير في SEO، Google Ads، Meta Ads، Google Analytics، PrestaShop و WordPress.",
       location: "باريس، فرنسا",
-      years_experience: "3 سنوات",
-      specialty: "أداء B2B و CRM",
-      education_short: "التعليم ماجستير في CRM والتحولات الرقمية",
+      years_experience: "+3 سنوات",
+      specialty: "التسويق الرقمي والنمو و CRM",
+      education_short: "ماجستير في CRM والتحولات الرقمية (Bac+5)",
       contact_btn: "تواصل معي",
       linkedin_btn: "زيارة LinkedIn",
       download_cv: "تحميل السيرة الذاتية",
@@ -589,11 +495,14 @@ export const TRANSLATIONS: Record<'en' | 'fr' | 'ar', TranslationData> = {
       cv_ar: CVS.ar,
       cv_original: CVS.original,
       cv_ats: CVS.ats,
+      cv: CVS.ar,
+      work_authorization: "مصرح له بالعمل في فرنسا",
+      driving_license: "رخصة قيادة B",
       open_to_work: "متاح لفرص العمل",
       hero_title_1: "مرحباً بكم في",
       hero_title_2: "محفظة",
       hero_title_3: "محمد ياسين",
-      hero_intro: "أنا محمد ياسين عز الدين، محترف تسويق رقمي موجه نحو النتائج ومقره باريس. أساعد العلامات التجارية على تطوير رؤيتها عبر الإنترنت وتحسين أدائها.\n\nحالياً، أعمل على مشروع مع شركة SAS SOFTWIN مع بقائي منفتحاً على فرص جديدة.\n\nأتدخل في كامل الاستراتيجية الرقمية: إدارة وسائل التواصل الاجتماعي، الحملات الإعلانية (Meta & Google)، تحسين محركات البحث (SEO)، إدارة علاقات العملاء (CRM)، وتحسين التجارة الإلكترونية. هدفي: تصميم إجراءات تسويقية فعالة تولد نمواً ملموساً.\n\nمن خلال نهج قائم على البيانات وإتقان أدوات مثل WordPress و PrestaShop ومجموعة Adobe، أقوم بتحسين رحلات المستخدم وتحسين معدلات التحويل وتعزيز هوية العلامة التجارية. مبدع وتحليلي، أقوم أيضاً بدمج تحليل السوق واستراتيجية الاتصال و UX/UI والتعاون مع المؤثرين لزيادة تأثير كل مشروع.",
+      hero_intro: "أنا محمد ياسين عز الدين، مدير التسويق الرقمي والنمو مقيم في باريس، مع أكثر من 3 سنوات من الخبرة في التسويق الرقمي، CRM والتجارة الإلكترونية.\n\nأساعد العلامات التجارية على بناء استراتيجيات تسويقية عالية الأداء، تحسين معدل التحويل (CRO)، إدارة الفرق وقيادة الحملات متعددة القنوات (Meta Ads, Google Ads, SEO, CRM).\n\nموجه نحو النتائج وتحليل البيانات لتحقيق نمو مستدام في الإيرادات.",
       profile_image: IMAGES.profile
     },
     navigation: {
@@ -606,104 +515,62 @@ export const TRANSLATIONS: Record<'en' | 'fr' | 'ar', TranslationData> = {
     },
     sectionTitles: {
       performance_title: "تأثير مثبت",
-      performance_subtitle: "استراتيجياتي لا تبدو جيدة فحسب، بل تحقق نتائج. إليك لمحة سريعة عن التأثير الذي حققته في أدواري الأخيرة.",
+      performance_subtitle: "استراتيجيات تسويقية قائمة على البيانات وموجهة نحو نمو الإيرادات. إليك لمحة عن التأثير المحقق.",
       performance_chart_title: "نظرة عامة على الأداء",
-      performance_chart_desc: "تحقيق نمو مستمر بأرقام مزدوجة عبر مؤشرات الأداء الرئيسية للتسويق من خلال تحسين البيانات والسرد القصصي الإبداعي.",
+      performance_chart_desc: "تحقيق نمو ملموس عبر مؤشرات الأداء الرئيسية للتسويق من خلال تحسين البيانات والاستحواذ وزيادة التحويلات.",
       experience_title: "المسيرة المهنية",
-      experience_subtitle: "سجل حافل في المبادرة وتحقيق النتائج، من المشاريع المستقلة إلى إدارة عمليات التسويق.",
-      skills_tech_title: "الكفاءة التقنية",
-      skills_edu_title: "التعليم",
+      experience_subtitle: "سجل حافل في التسويق الرقمي، إدارة المشاريع، الحملات متعددة القنوات وإدارة الفرق.",
+      skills_tech_title: "المهارات التقنية",
+      skills_edu_title: "الشهادات والمؤهلات العلمية",
       projects_title: "مشاريع مميزة",
-      projects_subtitle: "مجموعة مختارة من الأعمال الحديثة التي تبرز خبرتي في قيادة النمو، وبناء العلامات التجارية، وتحسين الأداء.",
+      projects_subtitle: "مجموعة مختارة من الأعمال التي تبرز الخبرة في النمو والتجارة الإلكترونية وبناء العلامة التجارية.",
       contact_title: "لنعمل معاً",
-      contact_subtitle: "هل أنت مستعد لتسريع نمو علامتك التجارية؟ أنا متاح حالياً لفرص العمل بدوام كامل أو الاستشارات المستقلة.",
+      contact_subtitle: "تبحث عن مدير تسويق رقمي ونمو في باريس؟ أنا متاح لمناقشة مشاريعك.",
       quick_summary: "ملخص سريع",
-      certifications: "الشهادات",
+      status_label: "تصريح العمل",
+      driving_license_label: "رخصة القيادة",
+      certifications: "دورات وشهادات إضافية",
       key_results: "النتائج الرئيسية",
       process_title: "منهجيتي",
-      process_subtitle: "نهج قائم على البيانات لتوسيع نطاق الأعمال."
+      process_subtitle: "نهج قائم على البيانات لتوسيع نطاق النمو الرقمي."
     },
-    ticker: ["استراتيجية", "نمو", "علامة تجارية", "أتمتة", "أداء", "SEO", "إعلانات", "CRM", "محتوى"],
+    ticker: ["التسويق الرقمي", "النمو", "META ADS", "GOOGLE ADS", "SEO", "CRM", "PRESTASHOP", "WORDPRESS"],
     process: [
-      { id: '1', title: "اكتشاف", description: "تحليل فجوات السوق وإمكانات العلامة التجارية.", icon: 'search' },
-      { id: '2', title: "استراتيجية", description: "صياغة خرائط طريق قائمة على البيانات للنمو.", icon: 'strategy' },
-      { id: '3', title: "تنفيذ", description: "إطلاق حملات وأنظمة ذات تأثير عالي.", icon: 'rocket' },
-      { id: '4', title: "تحسين", description: "توسيع نطاق النتائج من خلال التكرار المستمر.", icon: 'chart' }
+      { id: '1', title: "اكتشاف", description: "تحليل البيانات، أبحاث السوق وتدقيق فرص النمو.", icon: 'search' },
+      { id: '2', title: "استراتيجية", description: "إعداد خرائط طريق متعددة القنوات وتحديد أهداف KPI.", icon: 'strategy' },
+      { id: '3', title: "تنفيذ", description: "إطلاق الحملات، إنشاء المحتوى وأقماع التحويل.", icon: 'rocket' },
+      { id: '4', title: "تحسين", description: "تحليل معدلات التحويل وتعظيم العائد على الاستثمار.", icon: 'chart' }
     ],
     experiences: [
       {
-        id: '0',
-        role: "مسؤول تسويق",
-        company: "SAS SOFTWIN",
-        logo: "https://images.unsplash.com/photo-1560179707-f14e90ef3623?auto=format&fit=crop&q=80&w=200",
-        period: "منذ مايو 2026",
-        type: 'job',
-        description: "توسيع نشاط تكنولوجيا المعلومات (B2B). هيكلة ونشر استراتيجية تسويق كاملة لشركة استشارات في أنظمة وبرمجيات الكمبيوتر، مع التركيز على توليد عملاء محتملين مؤهلين وتحسين دورة المبيعات.",
-        achievements: [
-          { label: "عملاء مؤهلون (B2B)", value: "+45%" },
-          { label: "معدل التحويل", value: "+30% MQL → SQL" },
-          { label: "تكلفة الاستحواذ", value: "-20% CAC" },
-          { label: "زيارات طبيعية", value: "+25% (SEO تقني ومحتوى)" },
-          { label: "تفاعل LinkedIn", value: "+35% (علامة تجارية شخصية ومحتوى خبير)" }
-        ]
-      },
-      {
         id: '1',
-        role: "مدير تسويق",
+        role: "مسؤول التسويق والاتصال",
         company: "5e Saison Store",
         logo: LOGOS.saison,
-        period: "سبتمبر 2024 - مايو 2026",
+        period: "سبتمبر 2024 - يونيو 2026",
         type: 'job',
-        description: "قيادة استراتيجيات نمو التجارة الإلكترونية لعلامة تجارية للملابس، وإدارة الاستحواذ الكامل، وإنتاج المحتوى، وأنظمة الاحتفاظ بالعملاء.",
+        description: "تحديد ونشر استراتيجية التسويق الرقمي، إدارة حملات Meta Ads متعددة القنوات، الشراكات مع المؤثرين وإدارة فريق العمل.",
         achievements: [
-          { label: "نمو الزيارات", value: "+38% زيارات مؤهلة" },
-          { label: "التحويل", value: "+22% تحسين معدل التحويل" },
-          { label: "متوسط الطلب", value: "+18% نمو قيمة الطلب" },
-          { label: "التفاعل", value: "+40% نمو على انستغرام" },
-          { label: "استعادة السلة", value: "35% عبر أتمتة Brevo" }
-        ]
-      },
-      {
-        id: '2',
-        role: "استشاري علامة تجارية",
-        company: "Glow by Manel",
-        logo: LOGOS.glow,
-        period: "2024",
-        type: 'freelance',
-        description: "بناء العلامة التجارية بالكامل، استراتيجية الإطلاق، وأنظمة الحفاظ على العملاء لصالون تجميل جديد.",
-        achievements: [
-          { label: "الاستحواذ", value: "1200+ عميل في 4 أشهر" },
-          { label: "الهوية", value: "الشعار والهوية البصرية" },
-          { label: "السوشيال ميديا", value: "إعداد كامل واستراتيجية المحتوى" }
-        ]
-      },
-      {
-        id: '3',
-        role: "منسق رعاية",
-        company: "Vamous Club",
-        logo: LOGOS.vamous,
-        period: "2024",
-        type: 'freelance',
-        description: "الاستحواذ الاستراتيجي على الرعاة وتحديد موقع السوق لنادي بادل، تنس وكرة قدم.",
-        achievements: [
-          { label: "الشراكات", value: "4 رعاة رئيسيين" },
-          { label: "الإيرادات", value: "توقعات نمو +15%" },
-          { label: "الحجوزات", value: "تحسين تدفق الحجز" }
+          { label: "زيارات الموقع", value: "+38% زيادة" },
+          { label: "معدل التحويل", value: "+36% (8 مجموعات جديدة)" },
+          { label: "حملات Meta Ads", value: "تحسين وزيادة المبيعات الإلكترونية" },
+          { label: "المؤثرين", value: "+15,000 وصول (10+ صناع محتوى)" },
+          { label: "إدارة الفريق", value: "إدارة فريق من 5 موظفين" }
         ]
       },
       {
         id: '4',
-        role: "مطور تسويق ومنتجات",
-        company: "Piximind (SaaS)",
+        role: "التسويق وتطوير المنتجات",
+        company: "PIXIMIND",
         logo: LOGOS.piximind,
-        period: "فبراير - مايو 2024",
+        period: "فبراير 2024 - مايو 2024",
         type: 'job',
-        description: "أبحاث السوق، تحديد موقع المنتج، وتحسين قمع التحويل لمنصة الصحة العقلية.",
+        description: "إجراء أبحاث السوق والدراسات المقارنة، إنشاء وتحسين صفحات الهبوط لاستحواذ العملاء وتتبع مؤشرات الأداء عبر Google Analytics.",
         achievements: [
-          { label: "تحسين القمع", value: "+18% معدل التحويل" },
-          { label: "الإطلاق", value: "ملاءمة المنتج للسوق" },
-          { label: "المحتوى", value: "إنتاج إعلانات فيديو" },
-          { label: "صفحة الهبوط", value: "تصميم بنسبة نقر عالية" }
+          { label: "معدل التحويل", value: "+18% زيادة على صفحات الهبوط" },
+          { label: "الاستحواذ", value: "صفحات هبوط عالية التحويل" },
+          { label: "أبحاث السوق", value: "دراسات مقارنة وفرص النمو" },
+          { label: "التحليلات", value: "إعداد GA4 وتتبع KPI" }
         ]
       },
       {
@@ -713,74 +580,66 @@ export const TRANSLATIONS: Record<'en' | 'fr' | 'ar', TranslationData> = {
         logo: LOGOS.arena,
         period: "نوفمبر 2023 - يناير 2024",
         type: 'job',
-        description: "إدارة مفاوضات الموردين، تتبع طلبات CRM، ومراقبة المخزون. التنسيق مع فرق التسويق والمبيعات.",
+        description: "إدارة مشتريات المخزون والتفاوض على الأسعار والشروط مع الموردين والتنسيق بين الأقسام.",
         achievements: [
-          { label: "خفص التكاليف", value: "12% عبر التفاوض" },
-          { label: "العمليات", value: "تحسين تدفق الشراء" }
+          { label: "الموردين", value: "التفاوض مع 12 مورداً رئيسياً" },
+          { label: "سلسلة التوريد", value: "تنسيق المبيعات والتسويق والمالية" },
+          { label: "التأمين", value: "البحث عن الموردين وتأمين المخزون" }
         ]
       },
       {
         id: '6',
         role: "مساعد مدير تسويق",
-        company: "OuiWin",
+        company: "OUIWIN",
         logo: LOGOS.ouiwin,
-        period: "2021 & 2023",
+        period: "يوليو 2023 - أغسطس 2023",
         type: 'job',
-        description: "إدارة وسائل التواصل الاجتماعي، إنشاء محتوى مرئي، تحسين محركات البحث، وتطوير مواقع باستخدام WordPress و PrestaShop.",
+        description: "تحليل أداء الحملات عبر Google Analytics لموقعين، تحسين سلوك المستخدمين وتطوير مواقع تعريفية محسنة لـ SEO.",
         achievements: [
-          { label: "التفاعل", value: "+28% نمو السوشيال ميديا" },
-          { label: "SEO", value: "تحسين مواقع متعددة" },
-          { label: "تطوير ويب", value: "WordPress & PrestaShop" }
+          { label: "Google Analytics", value: "تحليل الحملات لموقعين" },
+          { label: "تطوير الويب", value: "WordPress و PrestaShop" },
+          { label: "SEO", value: "أفضل الممارسات لـ SEO" }
         ]
       }
     ],
     skills: [
       {
-        title: "الاستراتيجية الرقمية",
+        title: "التسويق الرقمي والنمو",
         icon: 'strategy',
-        skills: ["Meta Ads", "Google Ads", "SEO", "أبحاث السوق", "CRO", "كتابة المحتوى", "استراتيجية العلامة التجارية"]
+        skills: ["SEO (تحسين محركات البحث)", "Google Ads", "Meta Ads", "Google Analytics 4", "استراتيجيات التسويق", "CRO (تحسين التحويل)", "استراتيجية العلامة التجارية"]
       },
       {
-        title: "CRM والتقنيات",
+        title: "أنظمة CRM و CMS",
         icon: 'tech',
-        skills: ["Brevo", "HubSpot CRM", "WordPress", "PrestaShop", "Shopify", "Zapier", "تصميم UX/UI"]
+        skills: ["WordPress", "PrestaShop", "Brevo CRM", "HubSpot CRM", "Shopify", "تصميم UX/UI"]
       },
       {
-        title: "الإبداع والتحليلات",
+        title: "التصميم والتطبيقات المكتبية",
         icon: 'creative',
-        skills: ["Photoshop", "Illustrator", "Premiere", "Google Analytics", "CapCut", "Canva", "Figma", "After Effects"]
+        skills: ["Adobe Photoshop", "Adobe Illustrator", "Adobe Premiere", "Microsoft Excel", "Microsoft Word", "Microsoft PowerPoint", "Canva", "Figma"]
       },
       {
-        title: "الذكاء الاصطناعي والأدوات",
+        title: "الذكاء الاصطناعي والإنتاجية",
         icon: 'ai',
-        skills: ["ChatGPT", "Gemini", "Veo", "Google AI", "Midjourney", "Notion", "Claude", "Jasper"]
+        skills: ["ChatGPT", "Gemini", "Claude", "Google AI", "Notion", "Midjourney"]
       }
     ],
     performance: [
-      { name: 'الزيارات', value: 40, label: 'نمو الزيارات', suffix: '%', color: '#4f46e5' },
-      { name: 'التفاعل', value: 40, label: 'التفاعل الاجتماعي', suffix: '%', color: '#ec4899' },
-      { name: 'الاستعادة', value: 35, label: 'استعادة السلة', suffix: '%', color: '#10b981' },
-      { name: 'التحويل', value: 25, label: 'معدل التحويل', suffix: '%', color: '#f59e0b' },
+      { name: 'الزيارات', value: 38, label: 'نمو زيارات الموقع', suffix: '%', color: '#4f46e5' },
+      { name: 'التحويل', value: 36, label: 'نمو معدل التحويل', suffix: '%', color: '#ec4899' },
+      { name: 'صفحات الهبوط', value: 18, label: 'تحويل العملاء', suffix: '%', color: '#10b981' },
+      { name: 'CAC', value: 20, label: 'تخفيض تكلفة الاستحواذ', suffix: '%', color: '#f59e0b' },
     ],
     education: [
-      { degree: "ماجستير في CRM والتحولات الرقمية", school: "FSEG Sfax", year: "2022 – 2024" },
-      { degree: "إجازة في التسويق", school: "ISAA Sfax", year: "2018 – 2022" }
+      { degree: "ماجستير مهني في CRM والتحولات الرقمية (Bac+5)", school: "كلية العلوم الاقتصادية والتصرف بصفاقس (FSEG) | تقدير: ممتاز جداً", year: "2022 – 2024" },
+      { degree: "إجازة في علوم التصرف: تسويق (Bac+3)", school: "المعهد العالي لإدارة الأعمال بصفاقس (ISAA) | تقدير: حسن", year: "2018 – 2022" }
     ],
     certifications: [
-      "تدريب المؤسسة البيداغوجية (Arena Pro)",
-      "تحسين محركات البحث (Maha.Digital)",
-      "تدريب الأعمال (E2Business Training)"
+      "شهادة تدريب في تحسين محركات البحث (SEO) - Maha.Digital",
+      "شهادة تدريب مهني في تحسين محركات البحث - E2Business Training",
+      "شهادة تدريب في المؤسسة البيداغوجية - Arena Pro"
     ],
     projects: [
-      {
-        id: 'p0',
-        title: "مسؤول تسويق – SAS SOFTWIN",
-        category: "تسويق IT و B2B",
-        description: "هيكلة استراتيجية التسويق B2B، وإنشاء قمع استحواذ (SEO، إعلانات، LinkedIn) ونشر نظام CRM لشركة تكنولوجيا معلومات.",
-        results: ["+45% عملاء مؤهلون (B2B)", "+30% معدل تحويل MQL → SQL", "-20% تكلفة الاستحواذ (CAC)", "تحسين صفحات الهبوط و SEO"],
-        image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=800",
-        tags: ["استراتيجية B2B", "SEO", "إعلانات LinkedIn", "أتمتة CRM", "جلب العملاء"]
-      },
       {
         id: 'p1',
         title: "5e Saison Store",
