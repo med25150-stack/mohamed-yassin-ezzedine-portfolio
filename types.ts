@@ -71,6 +71,11 @@ export interface PersonalInfo {
   cv_en: string;
   cv_fr: string;
   cv_ar: string;
+  cv_original: string;
+  cv_ats: string;
+  cv: string;
+  work_authorization: string;
+  driving_license: string;
   open_to_work: string;
   hero_title_1: string;
   hero_title_2: string;
@@ -102,6 +107,8 @@ export interface SectionTitles {
   contact_title: string;
   contact_subtitle: string;
   quick_summary: string;
+  status_label: string;
+  driving_license_label: string;
   certifications: string;
   key_results: string;
   process_title: string;
