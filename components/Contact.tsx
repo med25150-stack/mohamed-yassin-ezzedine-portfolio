@@ -56,8 +56,20 @@ const Contact: React.FC = () => {
                     <span className="font-semibold flex items-center"><MapPin size={14} className="me-1"/> {content.personalInfo.location}</span>
                 </div>
                 <div className="flex justify-between items-center border-b border-slate-700 pb-3">
+                    <span className="text-slate-400">{content.sectionTitles.status_label}</span>
+                    <span className="font-semibold text-emerald-400 text-end">{content.personalInfo.work_authorization}</span>
+                </div>
+                <div className="flex justify-between items-center border-b border-slate-700 pb-3">
+                    <span className="text-slate-400">{content.sectionTitles.driving_license_label}</span>
+                    <span className="font-semibold text-slate-200 text-end">{content.personalInfo.driving_license}</span>
+                </div>
+                <div className="flex justify-between items-center border-b border-slate-700 pb-3">
                     <span className="text-slate-400">{content.sectionTitles.skills_edu_title}</span>
                     <span className="font-semibold text-end">{content.personalInfo.education_short}</span>
+                </div>
+                <div className="flex justify-between items-center pb-1">
+                    <span className="text-slate-400">{content.personalInfo.specialty.split(' & ')[0]}</span>
+                    <span className="font-semibold text-end">{content.personalInfo.specialty}</span>
                 </div>
             </div>
           </div>
