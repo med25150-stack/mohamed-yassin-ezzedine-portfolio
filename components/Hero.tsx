@@ -17,14 +17,22 @@ const Hero: React.FC = () => {
           {/* Text Content */}
           <div className="lg:w-1/2 lg:order-1 order-2">
             <div className="max-w-2xl">
-              <div className="inline-flex items-center space-x-2 rtl:space-x-reverse bg-indigo-50 dark:bg-indigo-900/30 border border-indigo-100 dark:border-indigo-800 rounded-full px-4 py-1.5 mb-6">
-                <span className="relative flex h-2 w-2">
-                  <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-indigo-400 opacity-75"></span>
-                  <span className="relative inline-flex rounded-full h-2 w-2 bg-indigo-500"></span>
-                </span>
-                <span className="text-sm font-medium text-indigo-800 dark:text-indigo-300 tracking-wide uppercase">
-                  {content.personalInfo.open_to_work}
-                </span>
+              <div className="flex flex-wrap items-center gap-3 mb-6">
+                <div className="inline-flex items-center space-x-2 rtl:space-x-reverse bg-indigo-50 dark:bg-indigo-900/30 border border-indigo-100 dark:border-indigo-800 rounded-full px-4 py-1.5">
+                  <span className="relative flex h-2 w-2">
+                    <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-indigo-400 opacity-75"></span>
+                    <span className="relative inline-flex rounded-full h-2 w-2 bg-indigo-500"></span>
+                  </span>
+                  <span className="text-sm font-medium text-indigo-800 dark:text-indigo-300 tracking-wide uppercase">
+                    {content.personalInfo.open_to_work}
+                  </span>
+                </div>
+                <div className="inline-flex items-center space-x-2 rtl:space-x-reverse bg-emerald-50 dark:bg-emerald-900/30 border border-emerald-200 dark:border-emerald-800/60 rounded-full px-4 py-1.5">
+                  <span className="text-emerald-600 dark:text-emerald-400 text-xs font-bold">✓</span>
+                  <span className="text-sm font-medium text-emerald-800 dark:text-emerald-300 tracking-wide">
+                    {content.personalInfo.work_authorization}
+                  </span>
+                </div>
               </div>
               
               <h1 className="text-5xl md:text-7xl font-bold text-slate-900 dark:text-white tracking-tight leading-[1.1] mb-6">
@@ -81,13 +89,13 @@ const Hero: React.FC = () => {
           </div>
 
           {/* Profile Image */}
-          <div className="lg:w-1/2 lg:order-2 order-1 flex justify-center lg:justify-end w-full">
-             <div className="relative aspect-square w-[78vw] max-w-[320px] sm:max-w-[400px] md:max-w-[460px] lg:max-w-[510px] xl:max-w-[560px]">
+          <div className="lg:w-1/2 lg:order-2 order-1 flex justify-center lg:justify-end">
+             <div className="relative w-64 h-64 sm:w-80 sm:h-80 lg:w-[300px] lg:h-[300px]">
                 <div className="absolute inset-0 bg-indigo-600 rounded-[2rem] rotate-6 opacity-20 dark:opacity-40 blur-2xl"></div>
-                <div className="relative h-full w-full rounded-[2rem] overflow-hidden border-4 border-white dark:border-slate-800 shadow-2xl rotate-3 hover:rotate-0 transition-all duration-500 bg-slate-200">
-                  <img 
-                    src={content.personalInfo.profile_image} 
-                    alt={content.personalInfo.name} 
+                <div className="relative h-full w-full rounded-[2rem] overflow-hidden border-4 border-white dark:border-slate-800 shadow-2xl rotate-3 hover:rotate-0 transition-all duration-500 bg-slate-100 dark:bg-slate-800 ring-1 ring-slate-900/5 dark:ring-white/10">
+                  <img
+                    src={content.personalInfo.profile_image}
+                    alt={content.personalInfo.name}
                     className="w-full h-full object-cover"
                     loading="eager"
                   />
