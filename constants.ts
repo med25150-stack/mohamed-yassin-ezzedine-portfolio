@@ -5,6 +5,7 @@ const IMAGES = {
   glow: "https://images.unsplash.com/photo-1560066984-138dadb4c035?auto=format&fit=crop&q=80&w=800", // Beauty Salon
   vamous: "https://images.unsplash.com/photo-1554068865-24cecd4e34b8?auto=format&fit=crop&q=80&w=800", // Padel Court
   arena: "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&q=80&w=800", // Logistics/Warehouse
+  lecarbon: "https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?auto=format&fit=crop&q=80&w=800", // Automotive Garage / Mechanic
   profile: "/images/profile.jpg",
 };
 
@@ -263,6 +264,15 @@ export const TRANSLATIONS: Record<'en' | 'fr' | 'ar', TranslationData> = {
         results: ["+18% Taux Conversion", "Production Pubs Vidéo", "Design à fort CTR"],
         image: LOGOS.piximind,
         tags: ["Market Research", "Funnel", "Product Growth", "Video Ads"]
+      },
+      {
+        id: 'p7',
+        title: "LeCarBon",
+        category: "Automotive Services Platform",
+        description: "End-to-end digital platform for a French multi-service automotive company (lecarbon.fr) covering mechanics, bodywork, towing, administrative services and used car sales with integrated booking.",
+        results: ["4.9/5 Google Rating", "Online Booking System", "Multi-service Vehicle Inventory"],
+        image: IMAGES.lecarbon,
+        tags: ["Web Platform", "Booking System", "SEO", "Automotive"]
       }
     ]
   },
@@ -502,6 +512,15 @@ export const TRANSLATIONS: Record<'en' | 'fr' | 'ar', TranslationData> = {
         results: ["+18% Taux Conversion", "Production Pubs Vidéo", "Design à fort CTR"],
         image: LOGOS.piximind,
         tags: ["Étude de Marché", "Funnel", "Croissance Produit", "Vidéo"]
+      },
+      {
+        id: 'p7',
+        title: "LeCarBon",
+        category: "Plateforme Services Automobiles",
+        description: "Plateforme digitale complète pour une société multi-services automobile française (lecarbon.fr) couvrant mécanique, carrosserie, dépannage, services administratifs et vente de véhicules d'occasion avec réservation intégrée.",
+        results: ["Note Google 4.9/5", "Système de Réservation en Ligne", "Catalogue Multi-services"],
+        image: IMAGES.lecarbon,
+        tags: ["Plateforme Web", "Réservation", "SEO", "Automobile"]
       }
     ]
   },
@@ -741,6 +760,15 @@ export const TRANSLATIONS: Record<'en' | 'fr' | 'ar', TranslationData> = {
         results: ["+18% معدل تحويل", "إنتاج إعلانات فيديو", "تصميم بنسبة نقر عالية"],
         image: LOGOS.piximind,
         tags: ["Market Research", "Funnel", "Product Growth", "Video Ads"]
+      },
+      {
+        id: 'p7',
+        title: "LeCarBon",
+        category: "منصة خدمات السيارات",
+        description: "منصة رقمية شاملة لشركة فرنسية متعددة الخدمات في مجال السيارات (lecarbon.fr) تغطي الميكانيك، صيانة الهيكل، الإعطال، الخدمات الإدارية وبيع السيارات المستعملة مع نظام حجز متكامل.",
+        results: ["تقييم جوجل 4.9/5", "نظام حجز إلكتروني", "كتالوج خدمات متعددة"],
+        image: IMAGES.lecarbon,
+        tags: ["منصة ويب", "نظام حجز", "SEO", "سيارات"]
       }
     ]
   }
