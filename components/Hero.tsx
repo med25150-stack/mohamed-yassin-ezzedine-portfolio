@@ -27,12 +27,6 @@ const Hero: React.FC = () => {
                     {content.personalInfo.open_to_work}
                   </span>
                 </div>
-                <div className="inline-flex items-center space-x-2 rtl:space-x-reverse bg-emerald-50 dark:bg-emerald-900/30 border border-emerald-200 dark:border-emerald-800/60 rounded-full px-4 py-1.5">
-                  <span className="text-emerald-600 dark:text-emerald-400 text-xs font-bold">✓</span>
-                  <span className="text-sm font-medium text-emerald-800 dark:text-emerald-300 tracking-wide">
-                    {content.personalInfo.work_authorization}
-                  </span>
-                </div>
               </div>
               
               <h1 className="text-5xl md:text-7xl font-bold text-slate-900 dark:text-white tracking-tight leading-[1.1] mb-6">
