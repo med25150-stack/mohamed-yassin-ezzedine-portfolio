@@ -30,7 +30,7 @@ const Projects: React.FC = () => {
                 <img
                   src={project.image}
                   alt={project.title}
-                  className={`w-full h-full ${['p4', 'p6'].includes(project.id) ? 'object-contain p-8 bg-white' : 'object-cover'} transform group-hover:scale-105 transition-transform duration-700 ease-out`}
+                  className={`w-full h-full ${['p4', 'p6', 'p7'].includes(project.id) ? 'object-contain p-8 bg-white' : 'object-cover'} transform group-hover:scale-105 transition-transform duration-700 ease-out`}
                   onError={(e) => {
                     const img = e.currentTarget;
                     img.style.display = 'none';
