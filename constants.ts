@@ -50,7 +50,7 @@ export const TRANSLATIONS: Record<'en' | 'fr' | 'ar', TranslationData> = {
       cv_original: CVS.original,
       cv_ats: CVS.ats,
       cv: CVS.original,
-      work_authorization: "Authorized to work in France",
+      work_authorization: "Authorized to work in France · European Blue Card",
       driving_license: "Permit B",
       open_to_work: "Open for Opportunities",
       hero_title_1: "Welcome to",
@@ -96,6 +96,22 @@ export const TRANSLATIONS: Record<'en' | 'fr' | 'ar', TranslationData> = {
       { id: '4', title: "Optimization", description: "Analyzing conversions and maximizing return on ad spend.", icon: 'chart' }
     ],
     experiences: [
+      {
+        id: '0',
+        role: "Operations & Logistics Manager",
+        company: "LECARBON",
+        logo: "",
+        period: "Sept. 2026 - Present",
+        type: 'job',
+        description: "Managed vehicle purchasing, sales preparation, administrative registration procedures, and end-to-end logistics while supporting vehicle listings and marketing initiatives.",
+        achievements: [
+          { label: "Operations", value: "Coordinated vehicle purchasing, sales and preparation" },
+          { label: "Administration", value: "Managed ANTS registration procedures and vehicle documents" },
+          { label: "Tax procedures", value: "Processed tax clearance requests for imported vehicles" },
+          { label: "Logistics", value: "Coordinated vehicle reception, movement, preparation and delivery" },
+          { label: "Marketing", value: "Managed listings and supported vehicle commercial campaigns" }
+        ]
+      },
       {
         id: '1',
         role: "Marketing and Communication Manager",
@@ -273,7 +289,7 @@ export const TRANSLATIONS: Record<'en' | 'fr' | 'ar', TranslationData> = {
       cv_original: CVS.original,
       cv_ats: CVS.ats,
       cv: CVS.fr,
-      work_authorization: "Autorisé à travailler en France",
+      work_authorization: "Autorisé à travailler en France · Carte Bleue Européenne",
       driving_license: "Permis B",
       open_to_work: "À l'écoute d'opportunités",
       hero_title_1: "Bienvenue sur le",
@@ -319,6 +335,22 @@ export const TRANSLATIONS: Record<'en' | 'fr' | 'ar', TranslationData> = {
       { id: '4', title: "Optimisation", description: "Analyse des conversions et maximisation du ROI.", icon: 'chart' }
     ],
     experiences: [
+      {
+        id: '0',
+        role: "Responsable Opérations & Logistique",
+        company: "LECARBON",
+        logo: "",
+        period: "Sept. 2026 - Présent",
+        type: 'job',
+        description: "Gestion et coordination des opérations liées à l'achat, la vente et la préparation des véhicules, ainsi que du suivi administratif et logistique de bout en bout.",
+        achievements: [
+          { label: "Opérations", value: "Coordination de l'achat, la vente et la préparation des véhicules" },
+          { label: "Administration", value: "Suivi des dossiers et démarches d'immatriculation auprès de l'ANTS" },
+          { label: "Démarches fiscales", value: "Traitement des demandes de quitus fiscal pour les véhicules importés" },
+          { label: "Logistique", value: "Réception, déplacement, préparation et livraison des véhicules" },
+          { label: "Marketing", value: "Gestion des annonces et participation à la commercialisation des véhicules" }
+        ]
+      },
       {
         id: '1',
         role: "Responsable Marketing et Communication",
@@ -496,7 +528,7 @@ export const TRANSLATIONS: Record<'en' | 'fr' | 'ar', TranslationData> = {
       cv_original: CVS.original,
       cv_ats: CVS.ats,
       cv: CVS.ar,
-      work_authorization: "مصرح له بالعمل في فرنسا",
+      work_authorization: "مصرح له بالعمل في فرنسا · البطاقة الزرقاء الأوروبية",
       driving_license: "رخصة قيادة B",
       open_to_work: "متاح لفرص العمل",
       hero_title_1: "مرحباً بكم في",
@@ -542,6 +574,22 @@ export const TRANSLATIONS: Record<'en' | 'fr' | 'ar', TranslationData> = {
       { id: '4', title: "تحسين", description: "تحليل معدلات التحويل وتعظيم العائد على الاستثمار.", icon: 'chart' }
     ],
     experiences: [
+      {
+        id: '0',
+        role: "مسؤول العمليات والخدمات اللوجستية",
+        company: "LECARBON",
+        logo: "",
+        period: "سبتمبر 2026 - حالياً",
+        type: 'job',
+        description: "إدارة وتنسيق عمليات شراء وبيع وتجهيز السيارات، مع متابعة الإجراءات الإدارية والتسجيل واللوجستيات من الاستلام إلى التسليم.",
+        achievements: [
+          { label: "العمليات", value: "تنسيق شراء وبيع وتجهيز السيارات" },
+          { label: "الإدارة", value: "متابعة الملفات وإجراءات التسجيل لدى ANTS" },
+          { label: "الإجراءات الجبائية", value: "معالجة طلبات شهادة التخليص الضريبي للسيارات المستوردة" },
+          { label: "اللوجستيات", value: "استلام ونقل وتجهيز وتسليم السيارات" },
+          { label: "التسويق", value: "إدارة الإعلانات ودعم تسويق السيارات" }
+        ]
+      },
       {
         id: '1',
         role: "مسؤول التسويق والاتصال",
